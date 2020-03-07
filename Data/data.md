@@ -1,0 +1,1 @@
+# Data from [Aceship](https://github.com/Aceship/AN-EN-Tags/tree/master/json/gamedata/en_US/gamedata/excel)

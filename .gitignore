@@ -1,3 +1,6 @@
+# Data File
+/Data/character_table.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
