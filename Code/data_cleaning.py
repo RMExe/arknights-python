@@ -5,7 +5,7 @@
 
 # ## Imports
 
-# In[ ]:
+# In[1]:
 
 
 import json
@@ -16,7 +16,7 @@ import re
 
 # ### Read-in
 
-# In[ ]:
+# In[2]:
 
 
 with open('../Data/character_table.json', encoding="utf-8") as f:
@@ -28,7 +28,7 @@ with open('../Data/skill_table.json', encoding="utf-8") as f:
 
 # ## Transform
 
-# In[ ]:
+# In[3]:
 
 
 cleaned_data = {}
@@ -57,28 +57,28 @@ replace_dict = {
 pattern = re.compile(r'<[^>]*>')
 
 
-# In[ ]:
+# In[4]:
 
 
 def get_name(unit):
     return unit["name"]
 
 
-# In[ ]:
+# In[5]:
 
 
 def get_class(unit):
     return mapper[unit["profession"]]
 
 
-# In[ ]:
+# In[6]:
 
 
 def get_tags(unit):
     return unit["tagList"]
 
 
-# In[ ]:
+# In[7]:
 
 
 def get_trait(unit):
@@ -141,7 +141,7 @@ def skill_subroutine(skill_text, bb):
     return reduce(lambda x,y: x.replace(y, replace_dict[y]), replace_dict, pattern.sub("",skill_text.replace(":0%",":.0%").format(**bb)))
 
 
-# In[12]:
+# In[17]:
 
 
 cleaned_data = {}
@@ -153,8 +153,11 @@ for key, unit in data.items():
         "trait" : get_trait(unit),
         "talents" : get_talents(unit),
         "skills" : get_skills(unit),
+        "image" : f"https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/{key}_1.png",
         "internal_id" : key
     }
+    if cleaned_data[get_name(unit)]['rarity'] > 3:
+        cleaned_data["image_e2"] = f"https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/{key}_2.png"
 
 
 # ## Load

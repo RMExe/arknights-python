@@ -12,6 +12,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_285_medic2_1.png",
         "internal_id": "char_285_medic2"
     },
     "Castle-3": {
@@ -27,6 +28,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_286_cast3_1.png",
         "internal_id": "char_286_cast3"
     },
     "Yato": {
@@ -42,6 +44,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_502_nblade_1.png",
         "internal_id": "char_502_nblade"
     },
     "Noir Corne": {
@@ -57,6 +60,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_500_noirc_1.png",
         "internal_id": "char_500_noirc"
     },
     "Rangers": {
@@ -72,6 +76,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_503_rang_1.png",
         "internal_id": "char_503_rang"
     },
     "Durin": {
@@ -87,6 +92,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_501_durin_1.png",
         "internal_id": "char_501_durin"
     },
     "12F": {
@@ -102,6 +108,7 @@
             }
         ],
         "skills": [],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_009_12fce_1.png",
         "internal_id": "char_009_12fce"
     },
     "Fang": {
@@ -121,6 +128,7 @@
                 "Charge \u03b1": "Instantly gains 6.0 Deployment Points."
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_123_fang_1.png",
         "internal_id": "char_123_fang"
     },
     "Vanilla": {
@@ -140,6 +148,7 @@
                 "Command - Reinforcement": "Gain 6.0 Deployment Points; ATK +5%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_240_wyvern_1.png",
         "internal_id": "char_240_wyvern"
     },
     "Plume": {
@@ -160,6 +169,7 @@
                 "Swift Strike \u03b1": "Atk +6%; aspd +10.0"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_192_falco_1.png",
         "internal_id": "char_192_falco"
     },
     "Melantha": {
@@ -180,6 +190,7 @@
                 "ATK Up \u03b1": "Atk +10%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_208_melan_1.png",
         "internal_id": "char_208_melan"
     },
     "Popukar": {
@@ -200,6 +211,7 @@
                 "ATK Up \u03b1": "Atk +10%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_281_popka_1.png",
         "internal_id": "char_281_popka"
     },
     "Cardigan": {
@@ -219,6 +231,7 @@
                 "Regeneration \u03b1": "Restores HP by 20% of Max HP"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_209_ardign_1.png",
         "internal_id": "char_209_ardign"
     },
     "Beagle": {
@@ -238,6 +251,7 @@
                 "DEF Up \u03b1": "Def +10%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_122_beagle_1.png",
         "internal_id": "char_122_beagle"
     },
     "Spot": {
@@ -258,6 +272,7 @@
                 "Secondary Healing Mode": "Atk +15%; stops attacking and focuses on healing surrounding allies"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_284_spot_1.png",
         "internal_id": "char_284_spot"
     },
     "Kroos": {
@@ -277,6 +292,7 @@
                 "Double Tap - Auto": "The next attack shoots 2.0 in a row, dealing 100% of ATK in physical damage with each shot."
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_124_kroos_1.png",
         "internal_id": "char_124_kroos"
     },
     "Adnachiel": {
@@ -296,6 +312,7 @@
                 "ATK Up \u03b1": "Atk +10%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_211_adnach_1.png",
         "internal_id": "char_211_adnach"
     },
     "Lava": {
@@ -315,6 +332,7 @@
                 "Tactical Chant \u03b1": "Aspd +10.0"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_121_lava_1.png",
         "internal_id": "char_121_lava"
     },
     "Hibiscus": {
@@ -334,6 +352,7 @@
                 "Healing Up \u03b1": "Atk +10%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_120_hibisc_1.png",
         "internal_id": "char_120_hibisc"
     },
     "Ansel": {
@@ -353,6 +372,7 @@
                 "Healing Range Up": "Range +1.0 grids; ATK +5%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_212_ansel_1.png",
         "internal_id": "char_212_ansel"
     },
     "Steward": {
@@ -372,6 +392,7 @@
                 "Power Strike \u03b1": "Increases the ATK of next attack to 150%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_210_stward_1.png",
         "internal_id": "char_210_stward"
     },
     "Orchid": {
@@ -391,6 +412,7 @@
                 "Swift Strike \u03b1": "Atk +6%; aspd +10.0"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_278_orchid_1.png",
         "internal_id": "char_278_orchid"
     },
     "Haze": {
@@ -414,8 +436,10 @@
                 "Crimson Eyes": "Max HP -75%; ATK +15%; aspd +35.0"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_141_nights_1.png",
         "internal_id": "char_141_nights"
     },
+    "image_e2": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_263_skadi_2.png",
     "Gitano": {
         "rarity": 4,
         "class": "Caster",
@@ -436,6 +460,7 @@
                 "Destiny": "Atk +30%; Range expands; attacks all targets within Range simultaneously Gitano stops attacking for 15.0 seconds after using this skill"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_109_fmout_1.png",
         "internal_id": "char_109_fmout"
     },
     "Greyy": {
@@ -459,6 +484,7 @@
                 "Electrostatic Discharge": "Aspd +35.0; the duration of the talent's slow increases to 2e+00 times"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_253_greyy_1.png",
         "internal_id": "char_253_greyy"
     },
     "Jessica": {
@@ -482,6 +508,7 @@
                 "Smokescreen": "Atk +20%; 75% chance to dodge physical and arts attacks"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_235_jesica_1.png",
         "internal_id": "char_235_jesica"
     },
     "Meteor": {
@@ -505,6 +532,7 @@
                 "Armor Breaker - Spread": "The next attack deals 140% of ATK physical damage to at most 5 enemies within Range and the DEF of targets hit -25% for 5.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_126_shotst_1.png",
         "internal_id": "char_126_shotst"
     },
     "Shirayuki": {
@@ -528,6 +556,7 @@
                 "Fatal Shuriken": "Throws giant spinning shurikens, the target's movement speed -22% for a short time and dealing 50% of ATK arts damage to the target per second"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_118_yuki_1.png",
         "internal_id": "char_118_yuki"
     },
     "Courier": {
@@ -551,6 +580,7 @@
                 "Command - Defense": "Immediately gains 3.0 Deployment Points Gradually obtains 8.0 DP during the skill duration; DEF +30%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_198_blackd_1.png",
         "internal_id": "char_198_blackd"
     },
     "Scavenger": {
@@ -574,6 +604,7 @@
                 "Command - Attack": "Immediately gains 11.0 costs ATK +20%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_149_scave_1.png",
         "internal_id": "char_149_scave"
     },
     "Vigna": {
@@ -597,6 +628,7 @@
                 "Mallet Sound": "Attack interval increases a bit; ATK +90%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_290_vigna_1.png",
         "internal_id": "char_290_vigna"
     },
     "Dobermann": {
@@ -620,6 +652,7 @@
                 "Spur": "Atk +30%; the talent becomes 2e+00 times as effective"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_130_doberm_1.png",
         "internal_id": "char_130_doberm"
     },
     "Matoimaru": {
@@ -643,6 +676,7 @@
                 "Demonic Power": "Def reduces to 0; ATK +75%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_289_gyuki_1.png",
         "internal_id": "char_289_gyuki"
     },
     "Frostleaf": {
@@ -666,6 +700,7 @@
                 "Ice Tomahawk": "Aspd +5.0; the movement speed of targets hit -30% and has a 15% chance to freeze them for 1.5 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_193_frostl_1.png",
         "internal_id": "char_193_frostl"
     },
     "Estelle": {
@@ -689,6 +724,7 @@
                 "Sacrificial Strike": "Atk +85%; cannot be healed by allies"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_127_estell_1.png",
         "internal_id": "char_127_estell"
     },
     "Mousse": {
@@ -711,6 +747,7 @@
                 "Fury": "Atk and DEF +27%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_185_frncat_1.png",
         "internal_id": "char_185_frncat"
     },
     "Gravel": {
@@ -735,6 +772,7 @@
                 "Rat Swarm": "When deployed, generates a shield with 100% of Max HP; the shield strength decays over 10.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_237_gravel_1.png",
         "internal_id": "char_237_gravel"
     },
     "Rope": {
@@ -757,6 +795,7 @@
                 "Double Hook": "The next attack deals 120% of ATK physical damage to up to 2 target and drags them towards this unit significantly"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_236_rope_1.png",
         "internal_id": "char_236_rope"
     },
     "Myrrh": {
@@ -779,6 +818,7 @@
                 "Medic Field": "Atk +5%; can heal 1 extra ally"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_117_myrrh_1.png",
         "internal_id": "char_117_myrrh"
     },
     "Gavial": {
@@ -801,6 +841,7 @@
                 "Vitality Restoration - Wide Range": "Buffs all allies within Range immediately, restoring HP by 15% of Gavial's ATK (by 38% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 7.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_187_ccheal_1.png",
         "internal_id": "char_187_ccheal"
     },
     "Perfumer": {
@@ -824,6 +865,7 @@
                 "Fine Blending": "Aspd -50.0; ATK +150%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_181_flower_1.png",
         "internal_id": "char_181_flower"
     },
     "Matterhorn": {
@@ -846,6 +888,7 @@
                 "Cold Resistance": "Max HP +20%; DEF +10%; res +50%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_199_yak_1.png",
         "internal_id": "char_199_yak"
     },
     "Cuora": {
@@ -868,6 +911,7 @@
                 "Shell Defense": "Stops attacking; Block +1.0; DEF +55%; restores HP by 1% of Max HP per second"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_150_snakek_1.png",
         "internal_id": "char_150_snakek"
     },
     "Gummy": {
@@ -891,6 +935,7 @@
                 "Cooking": "Start cooking and stops attacking for 10.0 seconds; DEF +50% focuses on healing nearby allies after finishing cooking; ATK +30%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_196_sunbr_1.png",
         "internal_id": "char_196_sunbr"
     },
     "Deepcolor": {
@@ -913,6 +958,7 @@
                 "Visual Trap": "Range expands; allies within Range obtain 25% physical dodge"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_110_deepcl_1.png",
         "internal_id": "char_110_deepcl"
     },
     "Earthspirit": {
@@ -935,6 +981,7 @@
                 "Quicksand Conversion": "Stops attacking; enemies within Range are slowed every 2e+00 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_183_skgoat_1.png",
         "internal_id": "char_183_skgoat"
     },
     "Shaw": {
@@ -957,6 +1004,7 @@
                 "High-Pressure Water Cannon": "Immediately pushes all enemies in the two frontal grids towards the attack direction significantly, dealing 180% of ATK physical damage to them"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_277_sqrrel_1.png",
         "internal_id": "char_277_sqrrel"
     },
     "Ptilopsis": {
@@ -980,6 +1028,7 @@
                 "Enkephalin": "Range expands; reduces attack interval greatly"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_128_plosis_1.png",
         "internal_id": "char_128_plosis"
     },
     "Zima": {
@@ -1003,6 +1052,7 @@
                 "Ursus's Roar": "Gradually gains 9.0 dp over the skill duration all vanguard operators' ATK and DEF +25%; gains 1 extra dp when killing an enemy"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_115_headbr_1.png",
         "internal_id": "char_115_headbr"
     },
     "Texas": {
@@ -1026,6 +1076,7 @@
                 "Sword Rain": "Immediately gains 9.0 dp; deals 105% of ATK arts damage to all nearby enemies twice and stuns the hit targets for 2.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_102_texas_1.png",
         "internal_id": "char_102_texas"
     },
     "Swire": {
@@ -1049,6 +1100,7 @@
                 "Cooperative Combat": "Atk +30%; the talent is 2.1 times as effective"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_308_swire_1.png",
         "internal_id": "char_308_swire"
     },
     "Franka": {
@@ -1072,6 +1124,7 @@
                 "Vorpal Edge": "Def reduces to 0; ATK +50%; the chance of talent ignoring the target's DEF is increased to 2.5 times"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_106_franka_1.png",
         "internal_id": "char_106_franka"
     },
     "Indra": {
@@ -1095,6 +1148,7 @@
                 "Sundered Soul": "Atk +45%; damage dealt turns into arts damage; restores HP by 10% of damage dealt when attacking"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_155_tiger_1.png",
         "internal_id": "char_155_tiger"
     },
     "Lappland": {
@@ -1118,6 +1172,7 @@
                 "Wolf Spirit": "Atk +60%; damage dealt turns into arts damage; attacks 1 extra target; the damage reduction of Ranged attacks is removed automatically activated"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_140_whitew_1.png",
         "internal_id": "char_140_whitew"
     },
     "Specter": {
@@ -1142,6 +1197,7 @@
                 "Bone Fracture": "During the skill duration, Specter's HP will not drop below 1; ATK +40% Specter is stunned for 10.0 seconds after skill duration"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_143_ghost_1.png",
         "internal_id": "char_143_ghost"
     },
     "Blue Poison": {
@@ -1164,6 +1220,7 @@
                 "Venom Spray": "Atk +10%, each attack strikes its primary target an additional 1 time\uff0cand also hits up to 2 additional targets."
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_129_bluep_1.png",
         "internal_id": "char_129_bluep"
     },
     "Platinum": {
@@ -1186,6 +1243,7 @@
                 "Pegasian Sight": "Aspd reduces slightly, but ATK +50%; Range expands infinite duration"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_204_platnm_1.png",
         "internal_id": "char_204_platnm"
     },
     "Meteorite": {
@@ -1209,6 +1267,7 @@
                 "High-Explosive Shell": "Immediately launches a firebomb, dealing 180% of ATK physical damage to all hit targets within Range and their DEF -130.0 for 10.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_219_meteo_1.png",
         "internal_id": "char_219_meteo"
     },
     "Amiya": {
@@ -1235,6 +1294,7 @@
                 "Chimera": "Atk +100%; Max HP +25%; Range expands; deals damage while ignoring targets' DEF and res. Amiya will be forced to retreat after using this skill"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_002_amiya_1.png",
         "internal_id": "char_002_amiya"
     },
     "Skyfire": {
@@ -1258,6 +1318,7 @@
                 "Fire of Heaven": "Attack interval increases; attack changes into summoning meteorites from the sky; meteorites take a while to fall down, dealing 170% of ATK arts damage to enemies in a large Range and stunning all hit targets for 0.1 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_166_skfire_1.png",
         "internal_id": "char_166_skfire"
     },
     "Mayer": {
@@ -1281,6 +1342,7 @@
                 "Detonate and Recycle": "Detonates all deployed robotters immediately, dealing 300% of Mayer's ATK arts damage to nearby enemies and stunning all hit targets for 1.0 seconds the exploded robotters will be recycled"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_242_otter_1.png",
         "internal_id": "char_242_otter"
     },
     "Silence": {
@@ -1303,6 +1365,7 @@
                 "Medical Drone": "Obtains a medical drone can store at most 1 drone; the drone heals its surrounding allies when entering the battlefield and selfdestructs after 10 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_108_silent_1.png",
         "internal_id": "char_108_silent"
     },
     "Warfarin": {
@@ -1326,6 +1389,7 @@
                 "Unstable Plasma": "Warfarin and a random ally within Range obtain the following status: ATK +30%; loses 3% of Max HP per second, lasting for 15.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_171_bldsk_1.png",
         "internal_id": "char_171_bldsk"
     },
     "Nearl": {
@@ -1350,6 +1414,7 @@
                 "First Aid Mode": "Atk +20%; stops attacking and focuses on healing surrounding allies"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_148_nearl_1.png",
         "internal_id": "char_148_nearl"
     },
     "Projekt Red": {
@@ -1373,6 +1438,7 @@
                 "Wolfpack": "Immediately deals 140% of ATK physical damage to all nearby enemies after deployed and stuns the hit targets for 1.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_144_red_1.png",
         "internal_id": "char_144_red"
     },
     "Liskarm": {
@@ -1399,6 +1465,7 @@
                 "Counter Arc": "Attack interval increases; ATK +85%; deals arts damage to at most 3.0 enemies when attacking and has a 10% chance to stun the hit targets for 1.0 seconds Liskarm is stunned for 5.0 seconds after the skill duration"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_107_liskam_1.png",
         "internal_id": "char_107_liskam"
     },
     "Croissant": {
@@ -1422,6 +1489,7 @@
                 "Magnetic Hammer": "Bumps nearby enemies away greatly, stunning them for 2.5 seconds and dealing 240% of ATK physical damage to them"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_201_moeshd_1.png",
         "internal_id": "char_201_moeshd"
     },
     "Vulcan": {
@@ -1446,6 +1514,7 @@
                 "Combat Mode": "Block 1; attack interval slightly increases; ATK +65%; restores HP by 5% of Max HP when attacking and attacks all targets Blocked"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_163_hpsts_1.png",
         "internal_id": "char_163_hpsts"
     },
     "Provence": {
@@ -1468,6 +1537,7 @@
                 "Prey Seeker": "Atk +130%, but normal attack will not target enemies with over 80% HP"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_145_prove_1.png",
         "internal_id": "char_145_prove"
     },
     "Firewatch": {
@@ -1491,6 +1561,7 @@
                 "Tactical Transceiver": "Randomly drops 2.0 bombs within Range (especially to enemy's position); every bomb deals 180% of ATK physical damage to all nearby enemies"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_158_milu_1.png",
         "internal_id": "char_158_milu"
     },
     "Cliffheart": {
@@ -1514,6 +1585,7 @@
                 "Binding Chains": "Drags at most 2.0 targets in the frontal line to Cliffheart significantly, dealing 130% of ATK damage that ignores targets' DEF and res to them and stunning them for 1.5 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_173_slchan_1.png",
         "internal_id": "char_173_slchan"
     },
     "Pramanix": {
@@ -1539,6 +1611,7 @@
                 "Natural Deterrent": "For all enemies within Range, DEF -35% and res -20%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_174_slbell_1.png",
         "internal_id": "char_174_slbell"
     },
     "Istina": {
@@ -1562,6 +1635,7 @@
                 "Literature Storm": "Atk +20%; Range expands; attacks 2 extra targets"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_195_glassb_1.png",
         "internal_id": "char_195_glassb"
     },
     "Sora": {
@@ -1585,6 +1659,7 @@
                 "Hymn of Battle": "The ATK of all allies within Range is increased by 70% of Sora's ATK"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_101_sora_1.png",
         "internal_id": "char_101_sora"
     },
     "Manticore": {
@@ -1609,6 +1684,7 @@
                 "Toxic Overload": "Attack animation and attack interval increase; ATK +30%; stuns the hit targets for 0.5 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_215_mantic_1.png",
         "internal_id": "char_215_mantic"
     },
     "FEater": {
@@ -1632,6 +1708,7 @@
                 "Destructive Fist": "Rushes forward immediately and targets the closest enemy in the frontal line; knocks back all nearby enemies significantly, dealing 160% of ATK physical damage and the targets' movement speed -15% for 3.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_241_panda_1.png",
         "internal_id": "char_241_panda"
     },
     "Exusiai": {
@@ -1660,6 +1737,7 @@
                 "Overloading Mode": "Shoots 5.0 times in a row; slight attack interval reduction; ATK increases to 100% automatically activated"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_103_angel_1.png",
         "internal_id": "char_103_angel"
     },
     "Siege": {
@@ -1689,6 +1767,7 @@
                 "Skull Breaker": "Attack interval increases; increases ATK to 260% when attacking; has a 40% chance to stun the targets for 0.5 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_112_siege_1.png",
         "internal_id": "char_112_siege"
     },
     "Ifrit": {
@@ -1718,6 +1797,7 @@
                 "Scorched Earth": "Deals 75% of ATK arts damage per second to ground enemies within Range and reduces targets' res by -7.0 this unit loses 2% of Max HP per second"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_134_ifrit_1.png",
         "internal_id": "char_134_ifrit"
     },
     "Eyjafjalla": {
@@ -1747,6 +1827,7 @@
                 "Volcano": "Atk +55%; Range increases; attack interval reduces significantly; attack becomes randomly shooting lava that can hit at most 3.0 enemies within Range"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_180_amgoat_1.png",
         "internal_id": "char_180_amgoat"
     },
     "Angelina": {
@@ -1777,6 +1858,7 @@
                 "Arcane Staff - Anti-Gravity Mode": "All enemies' weight reduces by one level; Range expands; ATK +75%; can attack 4.0 enemies cannot use normal attack when the skill is not activated"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_291_aglina_1.png",
         "internal_id": "char_291_aglina"
     },
     "Shining": {
@@ -1806,6 +1888,7 @@
                 "Creed Field": "Atk +20% all allies within Range DEF +30%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_147_shining_1.png",
         "internal_id": "char_147_shining"
     },
     "Nightingale": {
@@ -1835,6 +1918,7 @@
                 "Sanctuary": "Range expands; ATK +30%; res of allies within Range +75% and grants them 10% arts dodge"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_179_cgbird_1.png",
         "internal_id": "char_179_cgbird"
     },
     "Hoshiguma": {
@@ -1864,6 +1948,7 @@
                 "Saw of Strength": "Atk +65%; DEF +40%; cuts all targets in the frontal grid with the shield"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_136_hsguma_1.png",
         "internal_id": "char_136_hsguma"
     },
     "Saria": {
@@ -1894,6 +1979,7 @@
                 "Calcification": "Restores the HP of all nearby allies by 10% of Saria's ATK The Arts damage taken by nearby enemies +20% and their Movement Speed -60%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_202_demkni_1.png",
         "internal_id": "char_202_demkni"
     },
     "SilverAsh": {
@@ -1923,6 +2009,7 @@
                 "Truesilver Slash": "Def -70%; ATK +110%; Range expands; attacks at most 3.0 targets simultaneously (regarded as melee attack)"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_172_svrash_1.png",
         "internal_id": "char_172_svrash"
     },
     "Ch'en": {
@@ -1952,6 +2039,7 @@
                 "Chi Xiao - Shadowless": "Looks for the closest enemy around and launches strike 10.0 times in a row, dealing 200% of ATK physical damage every time and stunning the target for 2.0 seconds by the last strike"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_010_chen_1.png",
         "internal_id": "char_010_chen"
     },
     "Medic Drone": {
@@ -1968,6 +2056,7 @@
                 "Self-Destruct": "Selfdestructs in 10 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10000_silent_healrb_1.png",
         "internal_id": "token_10000_silent_healrb"
     },
     "Tentacle": {
@@ -1981,6 +2070,7 @@
             }
         ],
         "skills": null,
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10001_deepcl_tentac_1.png",
         "internal_id": "token_10001_deepcl_tentac"
     },
     "Mirage": {
@@ -1990,6 +2080,7 @@
         "trait": null,
         "talents": null,
         "skills": null,
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10003_cgbird_bird_1.png",
         "internal_id": "token_10003_cgbird_bird"
     },
     "Robotter": {
@@ -2012,6 +2103,7 @@
                 "Detonate and Recycle": "Detonates all deployed Robotters, dealing 300% of mayer's ATK arts damage to nearby enemies and stunning them for 1.0 seconds the exploded Robotters will be recycled"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10004_otter_motter_1.png",
         "internal_id": "token_10004_otter_motter"
     },
     "Soaring Dragon F": {
@@ -2038,6 +2130,7 @@
                 "Recycle": "This unit retreats after skill duration ends"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10005_mgllan_drone1_1.png",
         "internal_id": "token_10005_mgllan_drone1"
     },
     "Soaring Dragon L": {
@@ -2064,6 +2157,7 @@
                 "Recycle": "This unit retreats after skill duration ends"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10005_mgllan_drone2_1.png",
         "internal_id": "token_10005_mgllan_drone2"
     },
     "Soaring Dragon A": {
@@ -2090,6 +2184,7 @@
                 "Recycle": "This unit retreats after skill duration ends"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/token_10005_mgllan_drone3_1.png",
         "internal_id": "token_10005_mgllan_drone3"
     },
     "Roadblock": {
@@ -2103,6 +2198,7 @@
                 "Road Blocking": "Deploy a roadBlock, changing enemies' route if the roadBlock is deployed on enemies, they will destroy it"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_001_crate_1.png",
         "internal_id": "trap_001_crate"
     },
     "Stun Generator": {
@@ -2116,6 +2212,7 @@
                 "EMP Blast": "Consumes 10.0 dp to immediately deal damage to all nearby enemies and stun the targets hit for 7.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_002_emp_1.png",
         "internal_id": "trap_002_emp"
     },
     "Gate": {
@@ -2129,6 +2226,7 @@
                 "Gate Closing": "Consumes 10.0 dp to close the Gate"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_003_gate_1.png",
         "internal_id": "trap_003_gate"
     },
     "Detector": {
@@ -2142,6 +2240,7 @@
                 "Detection": "Nearby enemies' invisibility is disabled when the skill is activated"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_005_sensor_1.png",
         "internal_id": "trap_005_sensor"
     },
     "Jammer": {
@@ -2155,6 +2254,7 @@
                 "Drone Interference": "Enemy's drones within Range cannot attack, lose their special ability and lose 50% movement speed enemies will attack this drone first"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_006_antidr_1.png",
         "internal_id": "trap_006_antidr"
     },
     "Turret": {
@@ -2168,6 +2268,7 @@
                 "Bolt Launching": "Shoots a bolt forwards, dealing physical damage to the first operator hit"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_007_ballis_1.png",
         "internal_id": "trap_007_ballis"
     },
     "Savage": {
@@ -2191,6 +2292,7 @@
                 "Precise Blast": "Deals 300% of ATK physical damage to at most 3.0 enemies within three grids ahead"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_230_savage_1.png",
         "internal_id": "char_230_savage"
     },
     "Catapult": {
@@ -2210,6 +2312,7 @@
                 "Blast Range Up \u03b1": "Increases aoe of normal attacks to 150%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_282_catap_1.png",
         "internal_id": "char_282_catap"
     },
     "Midnight": {
@@ -2229,6 +2332,7 @@
                 "Enchant Weapon \u03b1": "Atk +5%; damage dealt by normal attacks turn into arts damage"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_283_midn_1.png",
         "internal_id": "char_283_midn"
     },
     "Beehunter": {
@@ -2251,6 +2355,7 @@
                 "Soaring Fists": "Significant attack interval reduction"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_137_brownb_1.png",
         "internal_id": "char_137_brownb"
     },
     "Nightmare": {
@@ -2275,6 +2380,7 @@
                 "Night Phantom": "Inflict Nightmare on at most 3.0 enemies within Range: targets' movement speed -60%; deals damage while ignoring targets' DEF and res according to targets' movement distance for 5.0 seconds"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_164_nightm_1.png",
         "internal_id": "char_164_nightm"
     },
     "Grani": {
@@ -2298,6 +2404,7 @@
                 "Press the Attack!": "Range shortens; ATK & DEF +30%; Block +1.0; attacks all Blocked targets"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_220_grani_1.png",
         "internal_id": "char_220_grani"
     },
     "Skadi": {
@@ -2327,6 +2434,7 @@
                 "Tidal Elegy": "Atk, DEF and Max HP +70%"
             }
         ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_263_skadi_1.png",
         "internal_id": "char_263_skadi"
     }
 }
