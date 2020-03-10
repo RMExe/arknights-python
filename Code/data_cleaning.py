@@ -5,18 +5,17 @@
 
 # ## Imports
 
-# In[1]:
+# In[ ]:
 
 
 import json
-from pprint import pp
 from functools import reduce
 import re
 
 
 # ### Read-in
 
-# In[2]:
+# In[ ]:
 
 
 with open('../Data/character_table.json', encoding="utf-8") as f:
@@ -141,7 +140,7 @@ def skill_subroutine(skill_text, bb):
     return reduce(lambda x,y: x.replace(y, replace_dict[y]), replace_dict, pattern.sub("",skill_text.replace(":0%",":.0%").format(**bb)))
 
 
-# In[17]:
+# In[12]:
 
 
 cleaned_data = {}
