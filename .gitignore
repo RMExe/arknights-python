@@ -1,5 +1,6 @@
 # Data File
 /Data/character_table.json
+/Data/skill_table.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
