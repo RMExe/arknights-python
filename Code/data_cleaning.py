@@ -5,7 +5,7 @@
 
 # ## Imports
 
-# In[1]:
+# In[ ]:
 
 
 import json
@@ -16,7 +16,7 @@ import re
 
 # ### Read-in
 
-# In[2]:
+# In[ ]:
 
 
 with open('../Data/character_table.json', encoding="utf-8") as f:
@@ -28,7 +28,7 @@ with open('../Data/skill_table.json', encoding="utf-8") as f:
 
 # ## Transform
 
-# In[3]:
+# In[ ]:
 
 
 cleaned_data = {}
@@ -57,28 +57,28 @@ replace_dict = {
 pattern = re.compile(r'<[^>]*>')
 
 
-# In[4]:
+# In[ ]:
 
 
 def get_name(unit):
     return unit["name"]
 
 
-# In[5]:
+# In[ ]:
 
 
 def get_class(unit):
     return mapper[unit["profession"]]
 
 
-# In[6]:
+# In[ ]:
 
 
 def get_tags(unit):
     return unit["tagList"]
 
 
-# In[7]:
+# In[ ]:
 
 
 def get_trait(unit):
@@ -163,5 +163,5 @@ for key, unit in data.items():
 
 
 with open('../Data/cleaned_characters.json', 'w') as f:
-    json.dump(cleaned_data, f)
+    json.dump(cleaned_data, f, indent=4)
 
