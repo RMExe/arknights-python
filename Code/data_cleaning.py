@@ -5,18 +5,12 @@
 
 # ## Imports
 
-# In[ ]:
-
-
 import json
 from functools import reduce
 import re
 
 
 # ### Read-in
-
-# In[ ]:
-
 
 with open('../Data/character_table.json', encoding="utf-8") as f:
     data = json.load(f)
@@ -26,9 +20,6 @@ with open('../Data/skill_table.json', encoding="utf-8") as f:
 
 
 # ## Transform
-
-# In[3]:
-
 
 cleaned_data = {}
 mapper = {"CASTER": "Caster",
@@ -56,28 +47,16 @@ replace_dict = {
 pattern = re.compile(r'<[^>]*>')
 
 
-# In[4]:
-
-
 def get_name(unit):
     return unit["name"]
-
-
-# In[5]:
 
 
 def get_class(unit):
     return mapper[unit["profession"]]
 
 
-# In[6]:
-
-
 def get_tags(unit):
     return unit["tagList"]
-
-
-# In[7]:
 
 
 def get_trait(unit):
@@ -87,14 +66,8 @@ def get_trait(unit):
         return None
 
 
-# In[8]:
-
-
 def get_rarity(unit):
     return unit["rarity"] + 1
-
-
-# In[9]:
 
 
 def get_talents(unit):
@@ -103,9 +76,6 @@ def get_talents(unit):
         return [{talent["name"] : talent["description"] for talent in talents["candidates"] if talent["requiredPotentialRank"] == 0} for talents in talent_list]
     except TypeError:
         return None
-
-
-# In[10]:
 
 
 def get_skills(unit):
@@ -127,9 +97,6 @@ def get_skills(unit):
        return None
 
 
-# In[11]:
-
-
 def skill_subroutine(skill_text, bb):
     skill_pattern = re.compile(r'{[^}]*\.')
     dict_pattern = re.compile(r'^([^.]+\.)')
@@ -138,9 +105,6 @@ def skill_subroutine(skill_text, bb):
     bb = {dict_pattern.sub("", key) : value for key, value in bb.items()}
 
     return reduce(lambda x,y: x.replace(y, replace_dict[y]), replace_dict, pattern.sub("",skill_text.replace(":0%",":.0%").format(**bb)))
-
-
-# In[12]:
 
 
 cleaned_data = {}
@@ -160,9 +124,6 @@ for key, unit in data.items():
 
 
 # ## Load
-
-# In[13]:
-
 
 with open('../Data/cleaned_characters.json', 'w') as f:
     json.dump(cleaned_data, f, indent=4)
