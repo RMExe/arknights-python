@@ -1,1 +1,2332 @@
-{"Lancet-2": {"rarity": 1, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of allies and ignores the Deployment Limit, but has a long Redeployment Time", "talents": [{"Support Spray 1": "Immediately restores the HP of all allies by 200 after deployment"}], "skills": [], "internal_id": "char_285_medic2"}, "Castle-3": {"rarity": 1, "class": "Guard", "tags": ["Support"], "trait": "Blocks 1 enemy and ignores the Deployment Limit, but has a long Redeployment Time", "talents": [{"Tactical Configuration 1": "Increases the ATK and DEF of all [Melee] allies by 10% for 10 seconds after deployment"}], "skills": [], "internal_id": "char_286_cast3"}, "Yato": {"rarity": 2, "class": "Vanguard", "tags": ["Starter"], "trait": "Blocks 2 enemies", "talents": [{"Fast Redeployment": "Redeployment Time -30 seconds"}], "skills": [], "internal_id": "char_502_nblade"}, "Noir Corne": {"rarity": 2, "class": "Defender", "tags": ["Starter"], "trait": "Blocks 3 enemies", "talents": [{"Improved Armor": "Max HP and DEF +12%"}], "skills": [], "internal_id": "char_500_noirc"}, "Rangers": {"rarity": 2, "class": "Sniper", "tags": ["Starter"], "trait": "Attacks aerial enemies first", "talents": [{"Anti-Air Master": "ATK +50% when the target is an aerial unit"}], "skills": [], "internal_id": "char_503_rang"}, "Durin": {"rarity": 2, "class": "Caster", "tags": ["Starter"], "trait": "Deals Arts Damage", "talents": [{"Lucky Lass": "Obtains 50% Arts Dodge"}], "skills": [], "internal_id": "char_501_durin"}, "12F": {"rarity": 2, "class": "Caster", "tags": ["Starter"], "trait": "Deals AOE Arts Damage", "talents": [{"Dodge Rate Up": "Obtains 50% Physical Dodge"}], "skills": [], "internal_id": "char_009_12fce"}, "Fang": {"rarity": 3, "class": "Vanguard", "tags": ["DP-Recovery"], "trait": "Blocks 2 enemies", "talents": [{"Lightweight": "DP Cost -1"}], "skills": [{"Charge \u03b1": "Instantly gains 6.0 Deployment Points."}], "internal_id": "char_123_fang"}, "Vanilla": {"rarity": 3, "class": "Vanguard", "tags": ["DP-Recovery"], "trait": "Blocks 2 enemies", "talents": [{"ATK Up": "ATK +8%"}], "skills": [{"Command - Reinforcement": "Gain 6.0 Deployment Points; ATK +5%"}], "internal_id": "char_240_wyvern"}, "Plume": {"rarity": 3, "class": "Vanguard", "tags": ["DPS", "DP-Recovery"], "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated", "talents": [{"ATK Up": "ATK +8%"}], "skills": [{"Swift Strike \u03b1": "Atk +6%; aspd +10.0"}], "internal_id": "char_192_falco"}, "Melantha": {"rarity": 3, "class": "Guard", "tags": ["DPS", "Survival"], "trait": "Blocks 1 enemy", "talents": [{"ATK Up": "ATK +8%"}], "skills": [{"ATK Up \u03b1": "Atk +10%"}], "internal_id": "char_208_melan"}, "Popukar": {"rarity": 3, "class": "Guard", "tags": ["AoE", "Survival"], "trait": "Attacks all blocked enemies", "talents": [{"HP Up": "Max HP +6%; ATK +6%"}], "skills": [{"ATK Up \u03b1": "Atk +10%"}], "internal_id": "char_281_popka"}, "Cardigan": {"rarity": 3, "class": "Defender", "tags": ["Defense"], "trait": "Blocks 3 enemies", "talents": [{"Max HP Up": "Max HP +12%"}], "skills": [{"Regeneration \u03b1": "Restores HP by 20% of Max HP"}], "internal_id": "char_209_ardign"}, "Beagle": {"rarity": 3, "class": "Defender", "tags": ["Defense"], "trait": "Blocks 3 enemies", "talents": [{"DEF Up": "DEF +10%"}], "skills": [{"DEF Up \u03b1": "Def +10%"}], "internal_id": "char_122_beagle"}, "Spot": {"rarity": 3, "class": "Defender", "tags": ["Defense", "Healing"], "trait": "Can heal allies by using the skill", "talents": [{"Smoke Installation": "Heals an ally and then provides 20% Physical Dodge for 3 seconds"}], "skills": [{"Secondary Healing Mode": "Atk +15%; stops attacking and focuses on healing surrounding allies"}], "internal_id": "char_284_spot"}, "Kroos": {"rarity": 3, "class": "Sniper", "tags": ["DPS"], "trait": "Attacks aerial enemies first", "talents": [{"Targeting - Primary": "Has a 20% chance to increase the ATK of the current attack to 150% when attacking"}], "skills": [{"Double Tap - Auto": "The next attack shoots 2.0 in a row, dealing 100% of ATK in physical damage with each shot."}], "internal_id": "char_124_kroos"}, "Adnachiel": {"rarity": 3, "class": "Sniper", "tags": ["DPS"], "trait": "Attacks aerial enemies first", "talents": [{"Shortcoming Breakthrough": "ASPD +8; Attacks ranged enemies first"}], "skills": [{"ATK Up \u03b1": "Atk +10%"}], "internal_id": "char_211_adnach"}, "Lava": {"rarity": 3, "class": "Caster", "tags": ["AoE"], "trait": "Deals AOE Arts Damage", "talents": [{"Quick Skill Usage": "Immediately obtains 30 Skill Points after deployment"}], "skills": [{"Tactical Chant \u03b1": "Aspd +10.0"}], "internal_id": "char_121_lava"}, "Hibiscus": {"rarity": 3, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of allies", "talents": [{"Healing Up": "ATK +8%"}], "skills": [{"Healing Up \u03b1": "Atk +10%"}], "internal_id": "char_120_hibisc"}, "Ansel": {"rarity": 3, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of allies", "talents": [{"Additional Healing": "Has a 15% chance to heal 1 extra ally"}], "skills": [{"Healing Range Up": "Range +1.0 grids; ATK +5%"}], "internal_id": "char_212_ansel"}, "Steward": {"rarity": 3, "class": "Caster", "tags": ["DPS"], "trait": "Deals Arts Damage", "talents": [{"Armor Break": "ATK +6%; Attacks enemies with the highest DEF first"}], "skills": [{"Power Strike \u03b1": "Increases the ATK of next attack to 150%"}], "internal_id": "char_210_stward"}, "Orchid": {"rarity": 3, "class": "Supporter", "tags": ["Slow"], "trait": "Deals Arts Damage and Slows the target for a short time", "talents": [{"Casting Speed Up": "ASPD +9"}], "skills": [{"Swift Strike \u03b1": "Atk +6%; aspd +10.0"}], "internal_id": "char_278_orchid"}, "Haze": {"rarity": 4, "class": "Caster", "tags": ["DPS", "Debuff"], "trait": "Deals Arts Damage", "talents": [{"Black Mist": "Attacks reduce the target's RES by 20% for 1 second"}], "skills": [{"ATK Up \u03b2": "Atk +20%"}, {"Crimson Eyes": "Max HP -75%; ATK +15%; aspd +35.0"}], "internal_id": "char_141_nights"}, "Gitano": {"rarity": 4, "class": "Caster", "tags": ["AoE"], "trait": "Deals AOE Arts Damage", "talents": [{"Divination": "Obtains one of the following buffs permanently when deployed: ATK +13%, ASPD +13, or Max HP +20%"}], "skills": [{"Tactical Chant \u03b2": "Aspd +15.0"}, {"Destiny": "Atk +30%; Range expands; attacks all targets within Range simultaneously Gitano stops attacking for 15.0 seconds after using this skill"}], "internal_id": "char_109_fmout"}, "Greyy": {"rarity": 4, "class": "Caster", "tags": ["AoE", "Slow"], "trait": "Deals AOE Arts Damage", "talents": [{"Electrostatic Field": "Reduces the target's movement speed for 0.6 seconds when attacking"}], "skills": [{"Tactical Chant \u03b2": "Aspd +15.0"}, {"Electrostatic Discharge": "Aspd +35.0; the duration of the talent's slow increases to 2e+00 times"}], "internal_id": "char_253_greyy"}, "Jessica": {"rarity": 4, "class": "Sniper", "tags": ["DPS", "Survival"], "trait": "Attacks aerial enemies first", "talents": [{"Fast Cartridge": "ASPD +12"}], "skills": [{"Power Strike \u03b2": "Increases the ATK of next attack to 170%"}, {"Smokescreen": "Atk +20%; 75% chance to dodge physical and arts attacks"}], "internal_id": "char_235_jesica"}, "Meteor": {"rarity": 4, "class": "Sniper", "tags": ["DPS", "Debuff"], "trait": "Attacks aerial enemies first", "talents": [{"Anti-Air Specialist": "ATK +35% when the target is an aerial unit"}], "skills": [{"Armor Breaker": "The next attack deals 120% of ATK physical damage and the target's DEF -20% for 5.0 seconds"}, {"Armor Breaker - Spread": "The next attack deals 140% of ATK physical damage to at most 5 enemies within Range and the DEF of targets hit -25% for 5.0 seconds"}], "internal_id": "char_126_shotst"}, "Shirayuki": {"rarity": 4, "class": "Sniper", "tags": ["AoE", "Slow"], "trait": "Deals AOE Physical Damage", "talents": [{"Heavy Shuriken": "Attack Interval increases slightly, but ATK +20%"}], "skills": [{"Shuriken": "Range +2.0 grids"}, {"Fatal Shuriken": "Throws giant spinning shurikens, the target's movement speed -22% for a short time and dealing 50% of ATK arts damage to the target per second"}], "internal_id": "char_118_yuki"}, "Courier": {"rarity": 4, "class": "Vanguard", "tags": ["DP-Recovery", "Defense"], "trait": "Blocks 2 enemies", "talents": [{"Karlan Patrol": "DEF +16% when two or more enemies are blocked"}], "skills": [{"Charge \u03b2": "Instantly gains 9.0 Deployment Points."}, {"Command - Defense": "Immediately gains 3.0 Deployment Points Gradually obtains 8.0 DP during the skill duration; DEF +30%"}], "internal_id": "char_198_blackd"}, "Scavenger": {"rarity": 4, "class": "Vanguard", "tags": ["DP-Recovery", "DPS"], "trait": "Blocks 2 enemies", "talents": [{"Lone Wolf": "ATK and DEF +11% when there are no allies in the four adjacent grids"}], "skills": [{"Charge \u03b2": "Instantly gains 9.0 Deployment Points."}, {"Command - Attack": "Immediately gains 11.0 costs ATK +20%"}], "internal_id": "char_149_scave"}, "Vigna": {"rarity": 4, "class": "Vanguard", "tags": ["DPS", "DP-Recovery"], "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated", "talents": [{"Fierce Stabbing": "Has a 10% chance to increase the ATK of the current attack by 100% when attacking. The chance increases to 30% when Vigna uses her skill"}], "skills": [{"ATK Up \u03b2": "Atk +20%"}, {"Mallet Sound": "Attack interval increases a bit; ATK +90%"}], "internal_id": "char_290_vigna"}, "Dobermann": {"rarity": 4, "class": "Guard", "tags": ["DPS", "Support"], "trait": "Can attack farther enemies", "talents": [{"Starter Instructor": "All three-star Operators' ATK +10%"}], "skills": [{"Power Strike \u03b2": "Increases the ATK of next attack to 170%"}, {"Spur": "Atk +30%; the talent becomes 2e+00 times as effective"}], "internal_id": "char_130_doberm"}, "Matoimaru": {"rarity": 4, "class": "Guard", "tags": ["Survival", "DPS"], "trait": "Blocks 1 enemy", "talents": [{"Demonic Physique": "DEF -20%; Max HP +20%"}], "skills": [{"Regeneration \u03b2": "Restores HP by 20% of Max HP"}, {"Demonic Power": "Def reduces to 0; ATK +75%"}], "internal_id": "char_289_gyuki"}, "Frostleaf": {"rarity": 4, "class": "Guard", "tags": ["Slow", "DPS"], "trait": "Can launch Ranged Attacks that deal 80% of normal ATK", "talents": [{"Covered Strike": "Range expands, but Attack Interval increases slightly"}], "skills": [{"Frost Tomahawk": "Deals 105% of ATK physical damage in the next attack, the movement speed of targets hit -20% for 1.5 seconds"}, {"Ice Tomahawk": "Aspd +5.0; the movement speed of targets hit -30% and has a 15% chance to freeze them for 1.5 seconds"}], "internal_id": "char_193_frostl"}, "Estelle": {"rarity": 4, "class": "Guard", "tags": ["AoE", "Survival"], "trait": "Attacks all blocked enemies", "talents": [{"Self-Healing": "Restores HP by 12% of Max HP when there is an enemy killed within the 8 surrounding grids"}], "skills": [{"ATK Up \u03b2": "Atk +20%"}, {"Sacrificial Strike": "Atk +85%; cannot be healed by allies"}], "internal_id": "char_127_estell"}, "Mousse": {"rarity": 4, "class": "Guard", "tags": ["DPS"], "trait": "Deals Arts Damage", "talents": [{"Combo": "Has a 20% chance to attack twice in a row when attacking"}], "skills": [{"Scratch": "ATK +-15% for the next hit; The target's ATK -15% for 5.0 seconds"}, {"Fury": "Atk and DEF +27%"}], "internal_id": "char_185_frncat"}, "Gravel": {"rarity": 4, "class": "Specialist", "tags": ["Fast-Redeploy", "Defense"], "trait": "Significantly reduced Redeployment Time", "talents": [{"Fast Deployment": "DP Cost -1", "Support of the Little": "Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 6%"}], "skills": [{"Shadow Assault": "Def +200% after Gravel is deployed; DEF continuously reduces within 6.0 seconds"}, {"Rat Swarm": "When deployed, generates a shield with 100% of Max HP; the shield strength decays over 10.0 seconds"}], "internal_id": "char_237_gravel"}, "Rope": {"rarity": 4, "class": "Specialist", "tags": ["Shift"], "trait": "Can Shift enemies by using skills\nCan be deployed on Ranged Grids", "talents": [{"Auditory Training": "Obtains 30% Physical Dodge"}], "skills": [{"Hook Shot": "The next attack deals 100% of ATK physical damage to its target and drags it towards this unit significantly"}, {"Double Hook": "The next attack deals 120% of ATK physical damage to up to 2 target and drags them towards this unit significantly"}], "internal_id": "char_236_rope"}, "Myrrh": {"rarity": 4, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of allies", "talents": [{"First Aid Kit": "Immediately restores the HP of all allies by 150% of Myrrh's ATK after deployment"}], "skills": [{"Dual Healing": "The next heal is increased to 100% of ATK and can target 1 extra ally can store 1.0 charge(s)"}, {"Medic Field": "Atk +5%; can heal 1 extra ally"}], "internal_id": "char_117_myrrh"}, "Gavial": {"rarity": 4, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of allies", "talents": [{"Battlefield Medic": "After deployed, all [Medic] Operators' ATK +10% and DEF +100, lasting 15 seconds"}], "skills": [{"Vitality Restoration": "Buffs the target ally in the next healing, restoring HP by 20% of Gavial's ATK (by 40% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 4.0 seconds can store 1.0 charge(s)"}, {"Vitality Restoration - Wide Range": "Buffs all allies within Range immediately, restoring HP by 15% of Gavial's ATK (by 38% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 7.0 seconds"}], "internal_id": "char_187_ccheal"}, "Perfumer": {"rarity": 4, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of 3 allies simultaneously", "talents": [{"Lavender": "Restores the HP of all allies by 3% of Perfumer's ATK per second", "Lavender's Fragrance": "Restores the HP of all allies by 5% of Perfumer's ATK per second"}], "skills": [{"Healing Up \u03b2": "Atk +15%"}, {"Fine Blending": "Aspd -50.0; ATK +150%"}], "internal_id": "char_181_flower"}, "Matterhorn": {"rarity": 4, "class": "Defender", "tags": ["Defense"], "trait": "Blocks 3 enemies", "talents": [{"Snowfield Guard": "RES +15"}], "skills": [{"Stamina Enhancement": "Max HP +20%; restores HP by 20.0 per second"}, {"Cold Resistance": "Max HP +20%; DEF +10%; res +50%"}], "internal_id": "char_199_yak"}, "Cuora": {"rarity": 4, "class": "Defender", "tags": ["Defense"], "trait": "Blocks 3 enemies", "talents": [{"Defense Specialist": "DEF +12%"}], "skills": [{"DEF Up \u03b2": "Def +20%"}, {"Shell Defense": "Stops attacking; Block +1.0; DEF +55%; restores HP by 1% of Max HP per second"}], "internal_id": "char_150_snakek"}, "Gummy": {"rarity": 4, "class": "Defender", "tags": ["Defense", "Healing"], "trait": "Can heal allies by using the skill", "talents": [{"Frying Pan Specialist": "When attacking, has a 15% chance to increase the ATK of the current attack to 200% and Stun the target for 1 second"}], "skills": [{"Provisions": "Restores the HP of a nearby ally by 95% of Gummy's ATK in the next attack can store 1.0 charge(s)"}, {"Cooking": "Start cooking and stops attacking for 10.0 seconds; DEF +50% focuses on healing nearby allies after finishing cooking; ATK +30%"}], "internal_id": "char_196_sunbr"}, "Deepcolor": {"rarity": 4, "class": "Supporter", "tags": ["Summon"], "trait": "Deals Arts Damage\nCan use Summons in battles", "talents": [{"Tentacle Summoner": "Can summon 4 Tentacles to help in combat"}], "skills": [{"Shadow Tentacle": "All tentacles' ATK and DEF +15%; restores 30.0 HP per second"}, {"Visual Trap": "Range expands; allies within Range obtain 25% physical dodge"}], "internal_id": "char_110_deepcl"}, "Earthspirit": {"rarity": 4, "class": "Supporter", "tags": ["Slow"], "trait": "Deals Arts Damage and Slows the target for a short time", "talents": [{"Geological Survey": "Extends slightly the duration of Slow"}], "skills": [{"ATK Up \u03b2": "Atk +20%"}, {"Quicksand Conversion": "Stops attacking; enemies within Range are slowed every 2e+00 seconds"}], "internal_id": "char_183_skgoat"}, "Shaw": {"rarity": 4, "class": "Specialist", "tags": ["Shift"], "trait": "Can attack all blocked enemies\nCan be deployed on Ranged Grids", "talents": [{"Fireproof Suit": "RES +15"}], "skills": [{"Steam Pump": "Pushes the target towards the attack direction greatly in the next attack, dealing 105% of ATK physical damage"}, {"High-Pressure Water Cannon": "Immediately pushes all enemies in the two frontal grids towards the attack direction significantly, dealing 180% of ATK physical damage to them"}], "internal_id": "char_277_sqrrel"}, "Ptilopsis": {"rarity": 5, "class": "Medic", "tags": ["Healing", "Support"], "trait": "Restores the HP of 3 allies simultaneously", "talents": [{"Skill Point Halo": "Greatly increases the Skill Point recovery speed of all allies when deployed"}], "skills": [{"Healing Up \u03b3": "Atk +40%"}, {"Enkephalin": "Range expands; reduces attack interval greatly"}], "internal_id": "char_128_plosis"}, "Zima": {"rarity": 5, "class": "Vanguard", "tags": ["DP-Recovery", "Support"], "trait": "Blocks 2 enemies", "talents": [{"Spearheader": "All [Vanguard] Operators' DP Cost -1 when Zima is in the squad"}], "skills": [{"Charge \u03b3": "Instantly gains 12.0 Deployment Points."}, {"Ursus's Roar": "Gradually gains 9.0 dp over the skill duration all vanguard operators' ATK and DEF +25%; gains 1 extra dp when killing an enemy"}], "internal_id": "char_115_headbr"}, "Texas": {"rarity": 5, "class": "Vanguard", "tags": ["DP-Recovery", "Crowd-Control"], "trait": "Blocks 2 enemies", "talents": [{"Tactical Delivery": "Gains 2 extra DP when Texas is in the squad"}], "skills": [{"Charge \u03b3": "Instantly gains 12.0 Deployment Points."}, {"Sword Rain": "Immediately gains 9.0 dp; deals 105% of ATK arts damage to all nearby enemies twice and stuns the hit targets for 2.0 seconds"}], "internal_id": "char_102_texas"}, "Swire": {"rarity": 5, "class": "Guard", "tags": ["DPS", "Support"], "trait": "Can attack farther enemies", "talents": [{"Melee Combat Guidance": "ATK of Melee Attack allies in the 8 surrounding grids +10% when Swire is deployed"}], "skills": [{"Command and Dispatch": "The effect Range of talent expands significantly and the talent is 2.0 times as effective"}, {"Cooperative Combat": "Atk +30%; the talent is 2.1 times as effective"}], "internal_id": "char_308_swire"}, "Franka": {"rarity": 5, "class": "Guard", "tags": ["DPS", "Survival"], "trait": "Blocks 1 enemy", "talents": [{"Thermite Blade": "Has a 20% chance to ignore the target's Defense when attacking"}], "skills": [{"Swift Strike \u03b3": "Atk +20%; aspd +20.0"}, {"Vorpal Edge": "Def reduces to 0; ATK +50%; the chance of talent ignoring the target's DEF is increased to 2.5 times"}], "internal_id": "char_106_franka"}, "Indra": {"rarity": 5, "class": "Guard", "tags": ["DPS", "Survival"], "trait": "Blocks 1 enemy", "talents": [{"Quick Fists": "Has a 30% chance to Dodge the enemy's Physical Melee Attack. ATK +100% in the next attack if the Dodge is successful"}], "skills": [{"Armorcrusher": "The ATK of the next hit +50% and ignores 35% of the target's DEF"}, {"Sundered Soul": "Atk +45%; damage dealt turns into arts damage; restores HP by 10% of damage dealt when attacking"}], "internal_id": "char_155_tiger"}, "Lappland": {"rarity": 5, "class": "Guard", "tags": ["DPS", "Debuff"], "trait": "Can launch Ranged Attacks that deal 80% of normal ATK", "talents": [{"Spiritual Destruction": "Disables the target's special ability when attacking, lasting 5 seconds"}], "skills": [{"Sundial": "Atk +30%; 20% chance to resist physical damage infinite duration"}, {"Wolf Spirit": "Atk +60%; damage dealt turns into arts damage; attacks 1 extra target; the damage reduction of Ranged attacks is removed automatically activated"}], "internal_id": "char_140_whitew"}, "Specter": {"rarity": 5, "class": "Guard", "tags": ["AoE", "Survival"], "trait": "Attacks all blocked enemies", "talents": [{"Stamina Up": "Max HP +10%", "Abyssal Regeneration": "Max HP +10%; Restores HP by 2% of Max HP per second"}], "skills": [{"ATK Up \u03b3": "Atk +30%"}, {"Bone Fracture": "During the skill duration, Specter's HP will not drop below 1; ATK +40% Specter is stunned for 10.0 seconds after skill duration"}], "internal_id": "char_143_ghost"}, "Blue Poison": {"rarity": 5, "class": "Sniper", "tags": ["DPS"], "trait": "Attacks aerial enemies first", "talents": [{"Neurotoxin": "Poisons the targets when attacking, dealing 75 Arts Damage to them per second, lasting 3 seconds"}], "skills": [{"Twinshot - Auto": "The next attack hits 1 additional target for 125% of ATK physical damage"}, {"Venom Spray": "Atk +10%, each attack strikes its primary target an additional 1 time\uff0cand also hits up to 2 additional targets."}], "internal_id": "char_129_bluep"}, "Platinum": {"rarity": 5, "class": "Sniper", "tags": ["DPS"], "trait": "Attacks aerial enemies first", "talents": [{"All-Out Attack": "The longer the interval from the last attack is, the higher the ATK of the next attack will be (The longest interval is 2.5 seconds and the corresponding ATK increases to 180%)"}], "skills": [{"ATK Up \u03b3": "Atk +30%"}, {"Pegasian Sight": "Aspd reduces slightly, but ATK +50%; Range expands infinite duration"}], "internal_id": "char_204_platnm"}, "Meteorite": {"rarity": 5, "class": "Sniper", "tags": ["AoE", "Debuff"], "trait": "Deals AOE Physical Damage", "talents": [{"Blast Attachment Refit": "Has a 30% chance to increase the ATK of the current attack by 60% when using Normal Attacks and skills"}], "skills": [{"Buckshot": "Attack aoe expands for the next attack, dealing 135% of ATK physical damage"}, {"High-Explosive Shell": "Immediately launches a firebomb, dealing 180% of ATK physical damage to all hit targets within Range and their DEF -130.0 for 10.0 seconds"}], "internal_id": "char_219_meteo"}, "Amiya": {"rarity": 5, "class": "Caster", "tags": ["DPS"], "trait": "Deals Arts Damage", "talents": [{"\uff1f\uff1f\uff1f": "\uff1f\uff1f\uff1f\uff1f\uff1f", "Emotional Absorption": "Restores 2 extra Skill Points when attacking an enemy and 8 extra Skill Points when killing an enemy"}], "skills": [{"Tactical Chant \u03b3": "Aspd +30.0"}, {"Spirit Burst": "Fires 6.0 times with 33% ATK when attacking and attacks random targets within Range automatically activated; Amiya is stunned for 10.0 seconds after the skill duration"}, {"Chimera": "Atk +100%; Max HP +25%; Range expands; deals damage while ignoring targets' DEF and res. Amiya will be forced to retreat after using this skill"}], "internal_id": "char_002_amiya"}, "Skyfire": {"rarity": 5, "class": "Caster", "tags": ["AoE", "Crowd-Control"], "trait": "Deals AOE Arts Damage", "talents": [{"Arts Sniper": "Increases the Arts Damage taken by all blocked enemies by 15% when deployed"}], "skills": [{"ATK Up \u03b3": "Atk +30%"}, {"Fire of Heaven": "Attack interval increases; attack changes into summoning meteorites from the sky; meteorites take a while to fall down, dealing 170% of ATK arts damage to enemies in a large Range and stunning all hit targets for 0.1 seconds"}], "internal_id": "char_166_skfire"}, "Mayer": {"rarity": 5, "class": "Supporter", "tags": ["Summon", "Crowd-Control"], "trait": "Deals Arts Damage\nCan use Summons in battles", "talents": [{"Robotter": "Can summon 5 Robotters; ASPD of enemies against Robotters -25"}], "skills": [{"Bionic Device": "All robotters gain 10% physical and arts dodge allies on robotters' four adjacent tiles also gain the same buff"}, {"Detonate and Recycle": "Detonates all deployed robotters immediately, dealing 300% of Mayer's ATK arts damage to nearby enemies and stunning all hit targets for 1.0 seconds the exploded robotters will be recycled"}], "internal_id": "char_242_otter"}, "Silence": {"rarity": 5, "class": "Medic", "tags": ["Healing"], "trait": "Restores the HP of allies", "talents": [{"Booster Injection": "All [Medic] Operators' ASPD +12 when Silence is deployed"}], "skills": [{"Healing Up \u03b3": "Atk +40%"}, {"Medical Drone": "Obtains a medical drone can store at most 1 drone; the drone heals its surrounding allies when entering the battlefield and selfdestructs after 10 seconds"}], "internal_id": "char_108_silent"}, "Warfarin": {"rarity": 5, "class": "Medic", "tags": ["Healing", "Support"], "trait": "Restores the HP of allies", "talents": [{"Blood Sample Recycle": "Restores 2 Skill Points to this Operator and a random ally within range when an enemy within range is killed"}], "skills": [{"Emergency Triage": "The next heal restores an additional 11% of its target's Max HP only available when the target's HP is lower than 50%; can store 2.0 charge(s)"}, {"Unstable Plasma": "Warfarin and a random ally within Range obtain the following status: ATK +30%; loses 3% of Max HP per second, lasting for 15.0 seconds"}], "internal_id": "char_171_bldsk"}, "Nearl": {"rarity": 5, "class": "Defender", "tags": ["Defense", "Healing"], "trait": "Can heal allies by using the skill", "talents": [{"Healing Effect Up": "Nearl's healing effect increases by 10%", "Pegasus's Halo": "Increases the healing effect received by all allies by 10% when deployed"}], "skills": [{"First Aid": "Restores the HP of a nearby ally with less than 50% HP by 110% of the operator's ATK in the next attack can store 1.0 charge(s)"}, {"First Aid Mode": "Atk +20%; stops attacking and focuses on healing surrounding allies"}], "internal_id": "char_148_nearl"}, "Projekt Red": {"rarity": 5, "class": "Specialist", "tags": ["Fast-Redeploy", "Crowd-Control"], "trait": "Significantly reduced Redeployment Time", "talents": [{"Chill": "Deals at least 30% of ATK damage every attack"}], "skills": [{"Execution Mode": "Atk +35% after Projekt Red is deployed; obtains 20% physical dodge"}, {"Wolfpack": "Immediately deals 140% of ATK physical damage to all nearby enemies after deployed and stuns the hit targets for 1.0 seconds"}], "internal_id": "char_144_red"}, "Liskarm": {"rarity": 5, "class": "Defender", "tags": ["Defense", "DPS"], "trait": "Blocks 3 enemies", "talents": [{"Tactical Defense": "Restores 1 Skill Point to this Operator and a random ally in the surrounding grids when attacked"}, {"Thunder Resistance": "RES +10"}], "skills": [{"Charged Defense": "Blocks the next source of damage; DEF +40% for 8.0 seconds automatically activated"}, {"Counter Arc": "Attack interval increases; ATK +85%; deals arts damage to at most 3.0 enemies when attacking and has a 10% chance to stun the hit targets for 1.0 seconds Liskarm is stunned for 5.0 seconds after the skill duration"}], "internal_id": "char_107_liskam"}, "Croissant": {"rarity": 5, "class": "Defender", "tags": ["Defense", "Shift"], "trait": "Blocks 3 enemies", "talents": [{"Miracle Field": "Has a 20% chance to resist Physical and Arts Damage. The allies in the four surrounding grids obtain half of the effect"}], "skills": [{"Auto Defense": "Def +20%; talent effect increases to 110% automatically activated"}, {"Magnetic Hammer": "Bumps nearby enemies away greatly, stunning them for 2.5 seconds and dealing 240% of ATK physical damage to them"}], "internal_id": "char_201_moeshd"}, "Vulcan": {"rarity": 5, "class": "Defender", "tags": ["Survival", "Defense", "DPS"], "trait": "Cannot be healed by allies", "talents": [{"Self-Defense": "Restores HP by 4% of Max HP per second and obtains 25% Physical Melee Dodge when the skill is activated"}], "skills": [{"Guardian Mode": "Block +1; DEF +60%; restores HP by 2% of Max HP per second in addition"}, {"Combat Mode": "Block 1; attack interval slightly increases; ATK +65%; restores HP by 5% of Max HP when attacking and attacks all targets Blocked"}], "internal_id": "char_163_hpsts"}, "Provence": {"rarity": 5, "class": "Sniper", "tags": ["DPS"], "trait": "High accuracy point-blank shot", "talents": [{"Hunter's Arrow": "Has a 20% chance to increase the ATK of the current attack to 180% when attacking and the chance increases to 50% when an enemy is in the frontal grid"}], "skills": [{"Wolf's Eye": "Atk +8% every time the HP of the target falls by 20%"}, {"Prey Seeker": "Atk +130%, but normal attack will not target enemies with over 80% HP"}], "internal_id": "char_145_prove"}, "Firewatch": {"rarity": 5, "class": "Sniper", "tags": ["DPS", "Nuker"], "trait": "Prioritizes attacking the enemy with lowest DEF within range first", "talents": [{"Assassin": "ATK increases to 140% when attacking ranged enemies"}], "skills": [{"Camouflage": "Atk +24%; turns into invisible state (will not become the target of Ranged enemies)"}, {"Tactical Transceiver": "Randomly drops 2.0 bombs within Range (especially to enemy's position); every bomb deals 180% of ATK physical damage to all nearby enemies"}], "internal_id": "char_158_milu"}, "Cliffheart": {"rarity": 5, "class": "Specialist", "tags": ["Shift", "DPS"], "trait": "Can Shift enemies by using skills\nCan be deployed on Ranged Grids", "talents": [{"Karlan Hunter": "ATK and DEF +12% when Cliffheart is not blocking any enemies"}], "skills": [{"Chain Hook": "Drags the target to Cliffheart significantly in the next attack, dealing 115% of ATK arts damage to it"}, {"Binding Chains": "Drags at most 2.0 targets in the frontal line to Cliffheart significantly, dealing 130% of ATK damage that ignores targets' DEF and res to them and stunning them for 1.5 seconds"}], "internal_id": "char_173_slchan"}, "Pramanix": {"rarity": 5, "class": "Supporter", "tags": ["Debuff"], "trait": "Deals Arts Damage", "talents": [{"Weakening": "Enemies in range are affected by [Fragile], making them take 130% damage when their HP is under 40%."}, {"Double Tinkle": "Attacks 2 enemies simultaneously when attacking"}], "skills": [{"Echolocation": "Simultaneously attacks 2.0 targets; aspd of all enemies in Range -30.0"}, {"Natural Deterrent": "For all enemies within Range, DEF -35% and res -20%"}], "internal_id": "char_174_slbell"}, "Istina": {"rarity": 5, "class": "Supporter", "tags": ["Slow", "DPS"], "trait": "Deals Arts Damage and Slows the target for a short time", "talents": [{"Explorer": "DEF -35%; ASPD +18"}], "skills": [{"Concentration": "Very significant attack interval reduction"}, {"Literature Storm": "Atk +20%; Range expands; attacks 2 extra targets"}], "internal_id": "char_195_glassb"}, "Sora": {"rarity": 5, "class": "Supporter", "tags": ["Support", "Healing"], "trait": "Does not attack but continuously restores the HP of all allies within range (the HP restored per second is equal to 10% of Sora's ATK)", "talents": [{"Encore": "Has a 50% chance to immediately restore Skill Point by 50% of Max Skill Points when the skill ends"}], "skills": [{"Hymn of Respite": "Range expands; all enemies within Range are put to sleep  (stun and invincible) and the effect of Sora's feature increases to 45%"}, {"Hymn of Battle": "The ATK of all allies within Range is increased by 70% of Sora's ATK"}], "internal_id": "char_101_sora"}, "Manticore": {"rarity": 5, "class": "Specialist", "tags": ["DPS", "Survival"], "trait": "Deals Damage to all targets within range\n50% chance to dodge Physical and Arts attacks and is less likely to be targeted by enemies", "talents": [{"Hidden Killer - Medium": "Stays in Invisible state normally (cannot be selected as the ranged-attack target); Removes the Invisible state when attacking and the ATK of the current attack +25%. Turns into Invisible state again after stopping attacking for 6 seconds", "Hidden Killer - Elite": "Stays in Invisible state normally (cannot be selected as the ranged-attack target); Removes the Invisible state when attacking and the ATK of the current attack +50%. Turns into Invisible state again after stopping attacking for 5 seconds"}], "skills": [{"Scorpion Venom": "The movement speed of targets hit -23% for 3.0 seconds"}, {"Toxic Overload": "Attack animation and attack interval increase; ATK +30%; stuns the hit targets for 0.5 seconds"}], "internal_id": "char_215_mantic"}, "FEater": {"rarity": 5, "class": "Specialist", "tags": ["Shift", "Slow"], "trait": "Can attack all blocked enemies\nCan be deployed on Ranged Grids", "talents": [{"Kung Fu": "Obtains 40% Physical Dodge"}], "skills": [{"Raging Iron Fist": "The next attack pushes enemies towards the attack direction significantly and their movement speed -15% for 3.0seconds "}, {"Destructive Fist": "Rushes forward immediately and targets the closest enemy in the frontal line; knocks back all nearby enemies significantly, dealing 160% of ATK physical damage and the targets' movement speed -15% for 3.0 seconds"}], "internal_id": "char_241_panda"}, "Exusiai": {"rarity": 6, "class": "Sniper", "tags": ["DPS"], "trait": "Attacks aerial enemies first", "talents": [{"Fast Cartridge": "ASPD +12"}, {"Angel's Blessings": "ATK +6%; Max HP +10%; The same buff is given to a random ally when Exusiai is deployed"}], "skills": [{"Charging Mode": "Shoots 3.0 times in a row in the next attack, dealing 105% of ATK damage with every shot"}, {"Shooting Mode": "Shoots 4.0 times in a row, dealing 100% of ATK damage with every shot"}, {"Overloading Mode": "Shoots 5.0 times in a row; slight attack interval reduction; ATK increases to 100% automatically activated"}], "internal_id": "char_103_angel"}, "Siege": {"rarity": 6, "class": "Vanguard", "tags": ["DP-Recovery", "DPS"], "trait": "Blocks 2 enemies", "talents": [{"King of Beasts": "All Vanguard Operators' ATK and DEF +8%"}, {"Crushing": "Obtains 1 Skill Point when an enemy in the four surrounding grids is killed"}], "skills": [{"Charge \u03b3": "Instantly gains 12.0 Deployment Points."}, {"Aerial Hammer": "Deals 220% of ATK physical damage to all nearby enemies in the next attack; gains 3.0 dp can store 1.0 charge(s)"}, {"Skull Breaker": "Attack interval increases; increases ATK to 260% when attacking; has a 40% chance to stun the targets for 0.5 seconds"}], "internal_id": "char_112_siege"}, "Ifrit": {"rarity": 6, "class": "Caster", "tags": ["AoE", "Debuff"], "trait": "Deals AOE Arts Damage in a long line", "talents": [{"Spiritual Dissolution": "RES of enemies within range -40%"}, {"Rhine Loop": "Restores 2 extra Skill Points every 6 seconds"}], "skills": [{"Fanaticism": "Atk +10%; aspd +45.0"}, {"Pyroclasm": "Deals 130% of ATK arts damage in the next attack;targets' DEF -100.0 for 3 seconds; causes them to take burn damage can store 2.0 charge(s)"}, {"Scorched Earth": "Deals 75% of ATK arts damage per second to ground enemies within Range and reduces targets' res by -7.0 this unit loses 2% of Max HP per second"}], "internal_id": "char_134_ifrit"}, "Eyjafjalla": {"rarity": 6, "class": "Caster", "tags": ["DPS", "Debuff"], "trait": "Deals Arts Damage", "talents": [{"Pyrobreath": "All [Caster] Operators' ATK +14% when Eyjafjalla is deployed"}, {"Wild Fire": "Immediately obtains a small random number of Skill Points after deployment"}], "skills": [{"Duetto": "ASPD +30.0 Starting from the second use of the skill, ATK +30%"}, {"Ignition": "Deals 240% of ATK arts damage in the next attack; deals half damage to enemies around the target and their res -10% for 6.0 seconds can store 1.0 charge(s)"}, {"Volcano": "Atk +55%; Range increases; attack interval reduces significantly; attack becomes randomly shooting lava that can hit at most 3.0 enemies within Range"}], "internal_id": "char_180_amgoat"}, "Angelina": {"rarity": 6, "class": "Supporter", "tags": ["Slow", "DPS", "Support"], "trait": "Deals Arts Damage and Slows the target for a short time", "talents": [{"Accelerator Field": "All allies' ASPD +7"}, {"Part-time Job": "Restores the HP of all allies by 20 per second when the skill is not activated"}], "skills": [{"Arcane Staff - Quick Charge Mode": "Atk +40% automatically activated"}, {"Arcane Staff - Particle Mode": "Attack interval reduces dramatically, but the arts damage dealt by every attack is only 30% of ATK cannot use normal attack when the skill is not activated"}, {"Arcane Staff - Anti-Gravity Mode": "All enemies' weight reduces by one level; Range expands; ATK +75%; can attack 4.0 enemies cannot use normal attack when the skill is not activated"}], "internal_id": "char_291_aglina"}, "Shining": {"rarity": 6, "class": "Medic", "tags": ["Healing", "Support"], "trait": "Restores the HP of allies", "talents": [{"Black Fiend's Protection": "DEF of allies within range +60"}, {"Code of Law": "ASPD +10"}], "skills": [{"Creed": "Atk +45%; aspd +10.0"}, {"Auto Protect": "The next heal generates a shield on its target for 2.0 seconds the shield can absorb damage equal to 20% of Shining's ATK and the target's DEF +20%; can store 1.0 charge(s)"}, {"Creed Field": "Atk +20% all allies within Range DEF +30%"}], "internal_id": "char_147_shining"}, "Nightingale": {"rarity": 6, "class": "Medic", "tags": ["Healing", "Support"], "trait": "Restores the HP of 3 allies simultaneously", "talents": [{"White Fiend's Protection": "RES of allies within range +15"}, {"Fleeting Phantom": "Can use Phantom. Phantom can not attack or block enemies, but it has 75 RES and 30% Physical Dodge and enemies are more likely to attack it. Phantom loses HP by 3% of Max HP per second"}], "skills": [{"Healing Up \u03b3": "Atk +40%"}, {"Arts Shield": "The next heal generates a shield on all affected target for 3.0 seconds the shields can absorb damage equal to 40% of Nightingale's ATK arts damage and the targets' res +5.0; can store 1.0 charge(s)"}, {"Sanctuary": "Range expands; ATK +30%; res of allies within Range +75% and grants them 10% arts dodge"}], "internal_id": "char_179_cgbird"}, "Hoshiguma": {"rarity": 6, "class": "Defender", "tags": ["Defense", "DPS"], "trait": "Blocks 3 enemies", "talents": [{"Tactical Armor": "25% chance to resist Physical and Arts damage"}, {"Special Operation Strategy": "Increases DEF of all Defenders by 6%"}], "skills": [{"Warpath": "Def +35%; ATK +10%"}, {"Thorns": "Def +5% deals 50% of ATK physical damage to enemies that attack Hoshiguma"}, {"Saw of Strength": "Atk +65%; DEF +40%; cuts all targets in the frontal grid with the shield"}], "internal_id": "char_136_hsguma"}, "Saria": {"rarity": 6, "class": "Defender", "tags": ["Defense", "Healing", "Support"], "trait": "Can heal allies by using the skill", "talents": [{"Rhine Charged Suit": "For every 20 seconds Saria is deployed, ATK +5% and DEF +4%, stacking up to 5 times"}, {"Refreshment": "When Saria restores an ally's HP, she also restores 1 extra Skill Point to them"}], "skills": [{"First Aid": "Restores the HP of a nearby ally with less than 50% HP by 110% of the operator's ATK in the next attack can store 1.0 charge(s)"}, {"Medicine Dispensing": "Restores the HP of all allies within a certain Range by 80% of Saria's ATK"}, {"Calcification": "Restores the HP of all nearby allies by 10% of Saria's ATK The Arts damage taken by nearby enemies +20% and their Movement Speed -60%"}], "internal_id": "char_202_demkni"}, "SilverAsh": {"rarity": 6, "class": "Guard", "tags": ["DPS", "Support"], "trait": "Can launch Ranged Attacks that deal 80% of normal ATK", "talents": [{"Leader": "ATK +10%; All allies' Redeployment Time -10%"}, {"Eagle Eyes": "Reveals invisible enemies within range"}], "skills": [{"Power Strike \u03b3": "Increases the ATK of next attack to 190%"}, {"Rules of Survival": "Can switch between the original state and the following state: Range reduces; DEF +35%; restores HP by 3% of Max HP per second"}, {"Truesilver Slash": "Def -70%; ATK +110%; Range expands; attacks at most 3.0 targets simultaneously (regarded as melee attack)"}], "internal_id": "char_172_svrash"}, "Ch'en": {"rarity": 6, "class": "Guard", "tags": ["Nuker", "DPS"], "trait": "Normal attacks deal damage twice", "talents": [{"Scolding": "Restores 1 Skill Point Once Attacking/Skill Point Once Attacked every 4 seconds when deployed"}, {"Blade Art": "ATK +5%; DEF +5%; Physical Dodge +10%"}], "skills": [{"Sheathed Strike": "Throws the sheath to enemies in the next attack, dealing 200% of ATK physical damage and stuns the hit targets for 1.0 seconds"}, {"Chi Xiao - Unsheath": "Deals 330% of ATK physical damage and 330% of ATK arts damage to at most 4.0 enemies in front of this unit"}, {"Chi Xiao - Shadowless": "Looks for the closest enemy around and launches strike 10.0 times in a row, dealing 200% of ATK physical damage every time and stunning the target for 2.0 seconds by the last strike"}], "internal_id": "char_010_chen"}, "Medic Drone": {"rarity": 5, "class": "Summoned Unit", "tags": null, "trait": null, "talents": null, "skills": [{"Self-Destruct": "Selfdestructs in 10 seconds"}, {"Self-Destruct": "Selfdestructs in 10 seconds"}], "internal_id": "token_10000_silent_healrb"}, "Tentacle": {"rarity": 4, "class": "Summoned Unit", "tags": null, "trait": null, "talents": [{"null": "+3 Tokens"}], "skills": null, "internal_id": "token_10001_deepcl_tentac"}, "Mirage": {"rarity": 6, "class": "Summoned Unit", "tags": null, "trait": null, "talents": null, "skills": null, "internal_id": "token_10003_cgbird_bird"}, "Robotter": {"rarity": 5, "class": "Summoned Unit", "tags": null, "trait": null, "talents": [{"Robotter - Operation": "Reduces the ASPD of enemy attackers by 10", "Robotter - Improvement": "Reduces the ASPD of enemy attackers by 25", "Robotter - Extension": "Reduces the ASPD of enemy attackers by 25"}], "skills": [{"Bionic Device": "All Robotters gain 10% physical and arts dodge allies on Robotters' four adjacent tiles also gain the same buff"}, {"Detonate and Recycle": "Detonates all deployed Robotters, dealing 300% of mayer's ATK arts damage to nearby enemies and stunning them for 1.0 seconds the exploded Robotters will be recycled"}], "internal_id": "token_10004_otter_motter"}, "Soaring Dragon F": {"rarity": 6, "class": "Summoned Unit", "tags": null, "trait": null, "talents": [{"null": "+5 Tokens"}, {"null": "Hidden for 20 seconds after deployment"}], "skills": [{"Recycle": "This unit retreats after skill duration ends"}, {"Recycle": "This unit retreats after skill duration ends"}, {"Recycle": "This unit retreats after skill duration ends"}], "internal_id": "token_10005_mgllan_drone1"}, "Soaring Dragon L": {"rarity": 6, "class": "Summoned Unit", "tags": null, "trait": null, "talents": [{"null": "+5 Tokens"}, {"null": "Hidden for 20 seconds after deployment"}], "skills": [{"Recycle": "This unit retreats after skill duration ends"}, {"Recycle": "This unit retreats after skill duration ends"}, {"Recycle": "This unit retreats after skill duration ends"}], "internal_id": "token_10005_mgllan_drone2"}, "Soaring Dragon A": {"rarity": 6, "class": "Summoned Unit", "tags": null, "trait": null, "talents": [{"null": "+5 Tokens"}, {"null": "Hidden for 20 seconds after deployment"}], "skills": [{"Recycle": "This unit retreats after skill duration ends"}, {"Recycle": "This unit retreats after skill duration ends"}, {"Recycle": "This unit retreats after skill duration ends"}], "internal_id": "token_10005_mgllan_drone3"}, "Roadblock": {"rarity": 1, "class": "Obstacle", "tags": null, "trait": null, "talents": null, "skills": [{"Road Blocking": "Deploy a roadBlock, changing enemies' route if the roadBlock is deployed on enemies, they will destroy it"}], "internal_id": "trap_001_crate"}, "Stun Generator": {"rarity": 1, "class": "Obstacle", "tags": null, "trait": null, "talents": null, "skills": [{"EMP Blast": "Consumes 10.0 dp to immediately deal damage to all nearby enemies and stun the targets hit for 7.0 seconds"}], "internal_id": "trap_002_emp"}, "Gate": {"rarity": 1, "class": "Obstacle", "tags": null, "trait": null, "talents": null, "skills": [{"Gate Closing": "Consumes 10.0 dp to close the Gate"}], "internal_id": "trap_003_gate"}, "Detector": {"rarity": 1, "class": "Obstacle", "tags": null, "trait": null, "talents": null, "skills": [{"Detection": "Nearby enemies' invisibility is disabled when the skill is activated"}], "internal_id": "trap_005_sensor"}, "Jammer": {"rarity": 1, "class": "Obstacle", "tags": null, "trait": null, "talents": null, "skills": [{"Drone Interference": "Enemy's drones within Range cannot attack, lose their special ability and lose 50% movement speed enemies will attack this drone first"}], "internal_id": "trap_006_antidr"}, "Turret": {"rarity": 1, "class": "Obstacle", "tags": null, "trait": null, "talents": null, "skills": [{"Bolt Launching": "Shoots a bolt forwards, dealing physical damage to the first operator hit"}], "internal_id": "trap_007_ballis"}, "Savage": {"rarity": 5, "class": "Guard", "tags": ["AoE", "Nuker"], "trait": "Attacks all blocked enemies", "talents": [{"Valley": "ATK and DEF +10% when there are more than two ranged grids in the four surrounding grids"}], "skills": [{"Power Strike \u03b2": "Increases the ATK of next attack to 170%"}, {"Precise Blast": "Deals 300% of ATK physical damage to at most 3.0 enemies within three grids ahead"}], "internal_id": "char_230_savage"}, "Catapult": {"rarity": 3, "class": "Sniper", "tags": ["AoE"], "trait": "Deals AOE Physical Damage", "talents": [{"Lightweight": "DP Cost -1"}], "skills": [{"Blast Range Up \u03b1": "Increases aoe of normal attacks to 150%"}], "internal_id": "char_282_catap"}, "Midnight": {"rarity": 3, "class": "Guard", "tags": ["DPS"], "trait": "Can launch Ranged Attacks that deal 80% of normal ATK", "talents": [{"Targeting - Primary": "Has a 20% chance to increase the ATK of the current attack to 150% when attacking"}], "skills": [{"Enchant Weapon \u03b1": "Atk +5%; damage dealt by normal attacks turn into arts damage"}], "internal_id": "char_283_midn"}, "Beehunter": {"rarity": 4, "class": "Guard", "tags": ["DPS"], "trait": "Blocks 1 enemy", "talents": [{"Boxer's Concentration": "Increases the ATK of every attack by 5% when attacking the same target, stacking up to 5 times. The stacking effect will be lost when switching targets"}], "skills": [{"Flexibility": "20% chance to dodge physical attacks"}, {"Soaring Fists": "Significant attack interval reduction"}], "internal_id": "char_137_brownb"}, "Nightmare": {"rarity": 5, "class": "Caster", "tags": ["DPS", "Healing", "Slow"], "trait": "Deals Arts Damage", "talents": [{"Dual Personality": "Obtains 40% Physical and Arts Dodge when equipped with skill 1; Obtains 15% ATK when equipped with skill 2"}], "skills": [{"Drain Soul": "Each attack restores the HP of at most 1.0 allies by 40% of damage dealt to enemies"}, {"Night Phantom": "Inflict Nightmare on at most 3.0 enemies within Range: targets' movement speed -60%; deals damage while ignoring targets' DEF and res according to targets' movement distance for 5.0 seconds"}], "internal_id": "char_164_nightm"}, "Grani": {"rarity": 5, "class": "Vanguard", "tags": ["DP-Recovery", "Defense"], "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated", "talents": [{"Mounted Police": "All [Vanguard] Operators obtain 20% Physical Dodge when Grani is deployed"}], "skills": [{"DEF Up \u03b3": "Def +30%"}, {"Press the Attack!": "Range shortens; ATK & DEF +30%; Block +1.0; attacks all Blocked targets"}], "internal_id": "char_220_grani"}, "Skadi": {"rarity": 6, "class": "Guard", "tags": ["DPS", "Survival"], "trait": "Blocks 1 enemy", "talents": [{"Abyssal Predator": "Increases ATK of \"Abyssal Hunters\" Operators by 14%"}, {"Swift Action": "Redeployment Time -10 seconds"}], "skills": [{"Swift Strike \u03b3": "Atk +20%; aspd +20.0"}, {"Wave Strike": "Atk +80% for 15.0 seconds after Skadi is deployed"}, {"Tidal Elegy": "Atk, DEF and Max HP +70%"}], "internal_id": "char_263_skadi"}}
+{
+    "Lancet-2": {
+        "rarity": 1,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of allies and ignores the Deployment Limit, but has a long Redeployment Time",
+        "talents": [
+            {
+                "Support Spray 1": "Immediately restores the HP of all allies by 200 after deployment"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_285_medic2"
+    },
+    "Castle-3": {
+        "rarity": 1,
+        "class": "Guard",
+        "tags": [
+            "Support"
+        ],
+        "trait": "Blocks 1 enemy and ignores the Deployment Limit, but has a long Redeployment Time",
+        "talents": [
+            {
+                "Tactical Configuration 1": "Increases the ATK and DEF of all [Melee] allies by 10% for 10 seconds after deployment"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_286_cast3"
+    },
+    "Yato": {
+        "rarity": 2,
+        "class": "Vanguard",
+        "tags": [
+            "Starter"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "Fast Redeployment": "Redeployment Time -30 seconds"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_502_nblade"
+    },
+    "Noir Corne": {
+        "rarity": 2,
+        "class": "Defender",
+        "tags": [
+            "Starter"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Improved Armor": "Max HP and DEF +12%"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_500_noirc"
+    },
+    "Rangers": {
+        "rarity": 2,
+        "class": "Sniper",
+        "tags": [
+            "Starter"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Anti-Air Master": "ATK +50% when the target is an aerial unit"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_503_rang"
+    },
+    "Durin": {
+        "rarity": 2,
+        "class": "Caster",
+        "tags": [
+            "Starter"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Lucky Lass": "Obtains 50% Arts Dodge"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_501_durin"
+    },
+    "12F": {
+        "rarity": 2,
+        "class": "Caster",
+        "tags": [
+            "Starter"
+        ],
+        "trait": "Deals AOE Arts Damage",
+        "talents": [
+            {
+                "Dodge Rate Up": "Obtains 50% Physical Dodge"
+            }
+        ],
+        "skills": [],
+        "internal_id": "char_009_12fce"
+    },
+    "Fang": {
+        "rarity": 3,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "Lightweight": "DP Cost -1"
+            }
+        ],
+        "skills": [
+            {
+                "Charge \u03b1": "Instantly gains 6.0 Deployment Points."
+            }
+        ],
+        "internal_id": "char_123_fang"
+    },
+    "Vanilla": {
+        "rarity": 3,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "ATK Up": "ATK +8%"
+            }
+        ],
+        "skills": [
+            {
+                "Command - Reinforcement": "Gain 6.0 Deployment Points; ATK +5%"
+            }
+        ],
+        "internal_id": "char_240_wyvern"
+    },
+    "Plume": {
+        "rarity": 3,
+        "class": "Vanguard",
+        "tags": [
+            "DPS",
+            "DP-Recovery"
+        ],
+        "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+        "talents": [
+            {
+                "ATK Up": "ATK +8%"
+            }
+        ],
+        "skills": [
+            {
+                "Swift Strike \u03b1": "Atk +6%; aspd +10.0"
+            }
+        ],
+        "internal_id": "char_192_falco"
+    },
+    "Melantha": {
+        "rarity": 3,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "ATK Up": "ATK +8%"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b1": "Atk +10%"
+            }
+        ],
+        "internal_id": "char_208_melan"
+    },
+    "Popukar": {
+        "rarity": 3,
+        "class": "Guard",
+        "tags": [
+            "AoE",
+            "Survival"
+        ],
+        "trait": "Attacks all blocked enemies",
+        "talents": [
+            {
+                "HP Up": "Max HP +6%; ATK +6%"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b1": "Atk +10%"
+            }
+        ],
+        "internal_id": "char_281_popka"
+    },
+    "Cardigan": {
+        "rarity": 3,
+        "class": "Defender",
+        "tags": [
+            "Defense"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Max HP Up": "Max HP +12%"
+            }
+        ],
+        "skills": [
+            {
+                "Regeneration \u03b1": "Restores HP by 20% of Max HP"
+            }
+        ],
+        "internal_id": "char_209_ardign"
+    },
+    "Beagle": {
+        "rarity": 3,
+        "class": "Defender",
+        "tags": [
+            "Defense"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "DEF Up": "DEF +10%"
+            }
+        ],
+        "skills": [
+            {
+                "DEF Up \u03b1": "Def +10%"
+            }
+        ],
+        "internal_id": "char_122_beagle"
+    },
+    "Spot": {
+        "rarity": 3,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "Healing"
+        ],
+        "trait": "Can heal allies by using the skill",
+        "talents": [
+            {
+                "Smoke Installation": "Heals an ally and then provides 20% Physical Dodge for 3 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Secondary Healing Mode": "Atk +15%; stops attacking and focuses on healing surrounding allies"
+            }
+        ],
+        "internal_id": "char_284_spot"
+    },
+    "Kroos": {
+        "rarity": 3,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Targeting - Primary": "Has a 20% chance to increase the ATK of the current attack to 150% when attacking"
+            }
+        ],
+        "skills": [
+            {
+                "Double Tap - Auto": "The next attack shoots 2.0 in a row, dealing 100% of ATK in physical damage with each shot."
+            }
+        ],
+        "internal_id": "char_124_kroos"
+    },
+    "Adnachiel": {
+        "rarity": 3,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Shortcoming Breakthrough": "ASPD +8; Attacks ranged enemies first"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b1": "Atk +10%"
+            }
+        ],
+        "internal_id": "char_211_adnach"
+    },
+    "Lava": {
+        "rarity": 3,
+        "class": "Caster",
+        "tags": [
+            "AoE"
+        ],
+        "trait": "Deals AOE Arts Damage",
+        "talents": [
+            {
+                "Quick Skill Usage": "Immediately obtains 30 Skill Points after deployment"
+            }
+        ],
+        "skills": [
+            {
+                "Tactical Chant \u03b1": "Aspd +10.0"
+            }
+        ],
+        "internal_id": "char_121_lava"
+    },
+    "Hibiscus": {
+        "rarity": 3,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "Healing Up": "ATK +8%"
+            }
+        ],
+        "skills": [
+            {
+                "Healing Up \u03b1": "Atk +10%"
+            }
+        ],
+        "internal_id": "char_120_hibisc"
+    },
+    "Ansel": {
+        "rarity": 3,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "Additional Healing": "Has a 15% chance to heal 1 extra ally"
+            }
+        ],
+        "skills": [
+            {
+                "Healing Range Up": "Range +1.0 grids; ATK +5%"
+            }
+        ],
+        "internal_id": "char_212_ansel"
+    },
+    "Steward": {
+        "rarity": 3,
+        "class": "Caster",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Armor Break": "ATK +6%; Attacks enemies with the highest DEF first"
+            }
+        ],
+        "skills": [
+            {
+                "Power Strike \u03b1": "Increases the ATK of next attack to 150%"
+            }
+        ],
+        "internal_id": "char_210_stward"
+    },
+    "Orchid": {
+        "rarity": 3,
+        "class": "Supporter",
+        "tags": [
+            "Slow"
+        ],
+        "trait": "Deals Arts Damage and Slows the target for a short time",
+        "talents": [
+            {
+                "Casting Speed Up": "ASPD +9"
+            }
+        ],
+        "skills": [
+            {
+                "Swift Strike \u03b1": "Atk +6%; aspd +10.0"
+            }
+        ],
+        "internal_id": "char_278_orchid"
+    },
+    "Haze": {
+        "rarity": 4,
+        "class": "Caster",
+        "tags": [
+            "DPS",
+            "Debuff"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Black Mist": "Attacks reduce the target's RES by 20% for 1 second"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b2": "Atk +20%"
+            },
+            {
+                "Crimson Eyes": "Max HP -75%; ATK +15%; aspd +35.0"
+            }
+        ],
+        "internal_id": "char_141_nights"
+    },
+    "Gitano": {
+        "rarity": 4,
+        "class": "Caster",
+        "tags": [
+            "AoE"
+        ],
+        "trait": "Deals AOE Arts Damage",
+        "talents": [
+            {
+                "Divination": "Obtains one of the following buffs permanently when deployed: ATK +13%, ASPD +13, or Max HP +20%"
+            }
+        ],
+        "skills": [
+            {
+                "Tactical Chant \u03b2": "Aspd +15.0"
+            },
+            {
+                "Destiny": "Atk +30%; Range expands; attacks all targets within Range simultaneously Gitano stops attacking for 15.0 seconds after using this skill"
+            }
+        ],
+        "internal_id": "char_109_fmout"
+    },
+    "Greyy": {
+        "rarity": 4,
+        "class": "Caster",
+        "tags": [
+            "AoE",
+            "Slow"
+        ],
+        "trait": "Deals AOE Arts Damage",
+        "talents": [
+            {
+                "Electrostatic Field": "Reduces the target's movement speed for 0.6 seconds when attacking"
+            }
+        ],
+        "skills": [
+            {
+                "Tactical Chant \u03b2": "Aspd +15.0"
+            },
+            {
+                "Electrostatic Discharge": "Aspd +35.0; the duration of the talent's slow increases to 2e+00 times"
+            }
+        ],
+        "internal_id": "char_253_greyy"
+    },
+    "Jessica": {
+        "rarity": 4,
+        "class": "Sniper",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Fast Cartridge": "ASPD +12"
+            }
+        ],
+        "skills": [
+            {
+                "Power Strike \u03b2": "Increases the ATK of next attack to 170%"
+            },
+            {
+                "Smokescreen": "Atk +20%; 75% chance to dodge physical and arts attacks"
+            }
+        ],
+        "internal_id": "char_235_jesica"
+    },
+    "Meteor": {
+        "rarity": 4,
+        "class": "Sniper",
+        "tags": [
+            "DPS",
+            "Debuff"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Anti-Air Specialist": "ATK +35% when the target is an aerial unit"
+            }
+        ],
+        "skills": [
+            {
+                "Armor Breaker": "The next attack deals 120% of ATK physical damage and the target's DEF -20% for 5.0 seconds"
+            },
+            {
+                "Armor Breaker - Spread": "The next attack deals 140% of ATK physical damage to at most 5 enemies within Range and the DEF of targets hit -25% for 5.0 seconds"
+            }
+        ],
+        "internal_id": "char_126_shotst"
+    },
+    "Shirayuki": {
+        "rarity": 4,
+        "class": "Sniper",
+        "tags": [
+            "AoE",
+            "Slow"
+        ],
+        "trait": "Deals AOE Physical Damage",
+        "talents": [
+            {
+                "Heavy Shuriken": "Attack Interval increases slightly, but ATK +20%"
+            }
+        ],
+        "skills": [
+            {
+                "Shuriken": "Range +2.0 grids"
+            },
+            {
+                "Fatal Shuriken": "Throws giant spinning shurikens, the target's movement speed -22% for a short time and dealing 50% of ATK arts damage to the target per second"
+            }
+        ],
+        "internal_id": "char_118_yuki"
+    },
+    "Courier": {
+        "rarity": 4,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "Defense"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "Karlan Patrol": "DEF +16% when two or more enemies are blocked"
+            }
+        ],
+        "skills": [
+            {
+                "Charge \u03b2": "Instantly gains 9.0 Deployment Points."
+            },
+            {
+                "Command - Defense": "Immediately gains 3.0 Deployment Points Gradually obtains 8.0 DP during the skill duration; DEF +30%"
+            }
+        ],
+        "internal_id": "char_198_blackd"
+    },
+    "Scavenger": {
+        "rarity": 4,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "DPS"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "Lone Wolf": "ATK and DEF +11% when there are no allies in the four adjacent grids"
+            }
+        ],
+        "skills": [
+            {
+                "Charge \u03b2": "Instantly gains 9.0 Deployment Points."
+            },
+            {
+                "Command - Attack": "Immediately gains 11.0 costs ATK +20%"
+            }
+        ],
+        "internal_id": "char_149_scave"
+    },
+    "Vigna": {
+        "rarity": 4,
+        "class": "Vanguard",
+        "tags": [
+            "DPS",
+            "DP-Recovery"
+        ],
+        "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+        "talents": [
+            {
+                "Fierce Stabbing": "Has a 10% chance to increase the ATK of the current attack by 100% when attacking. The chance increases to 30% when Vigna uses her skill"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b2": "Atk +20%"
+            },
+            {
+                "Mallet Sound": "Attack interval increases a bit; ATK +90%"
+            }
+        ],
+        "internal_id": "char_290_vigna"
+    },
+    "Dobermann": {
+        "rarity": 4,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Support"
+        ],
+        "trait": "Can attack farther enemies",
+        "talents": [
+            {
+                "Starter Instructor": "All three-star Operators' ATK +10%"
+            }
+        ],
+        "skills": [
+            {
+                "Power Strike \u03b2": "Increases the ATK of next attack to 170%"
+            },
+            {
+                "Spur": "Atk +30%; the talent becomes 2e+00 times as effective"
+            }
+        ],
+        "internal_id": "char_130_doberm"
+    },
+    "Matoimaru": {
+        "rarity": 4,
+        "class": "Guard",
+        "tags": [
+            "Survival",
+            "DPS"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "Demonic Physique": "DEF -20%; Max HP +20%"
+            }
+        ],
+        "skills": [
+            {
+                "Regeneration \u03b2": "Restores HP by 20% of Max HP"
+            },
+            {
+                "Demonic Power": "Def reduces to 0; ATK +75%"
+            }
+        ],
+        "internal_id": "char_289_gyuki"
+    },
+    "Frostleaf": {
+        "rarity": 4,
+        "class": "Guard",
+        "tags": [
+            "Slow",
+            "DPS"
+        ],
+        "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+        "talents": [
+            {
+                "Covered Strike": "Range expands, but Attack Interval increases slightly"
+            }
+        ],
+        "skills": [
+            {
+                "Frost Tomahawk": "Deals 105% of ATK physical damage in the next attack, the movement speed of targets hit -20% for 1.5 seconds"
+            },
+            {
+                "Ice Tomahawk": "Aspd +5.0; the movement speed of targets hit -30% and has a 15% chance to freeze them for 1.5 seconds"
+            }
+        ],
+        "internal_id": "char_193_frostl"
+    },
+    "Estelle": {
+        "rarity": 4,
+        "class": "Guard",
+        "tags": [
+            "AoE",
+            "Survival"
+        ],
+        "trait": "Attacks all blocked enemies",
+        "talents": [
+            {
+                "Self-Healing": "Restores HP by 12% of Max HP when there is an enemy killed within the 8 surrounding grids"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b2": "Atk +20%"
+            },
+            {
+                "Sacrificial Strike": "Atk +85%; cannot be healed by allies"
+            }
+        ],
+        "internal_id": "char_127_estell"
+    },
+    "Mousse": {
+        "rarity": 4,
+        "class": "Guard",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Combo": "Has a 20% chance to attack twice in a row when attacking"
+            }
+        ],
+        "skills": [
+            {
+                "Scratch": "ATK +-15% for the next hit; The target's ATK -15% for 5.0 seconds"
+            },
+            {
+                "Fury": "Atk and DEF +27%"
+            }
+        ],
+        "internal_id": "char_185_frncat"
+    },
+    "Gravel": {
+        "rarity": 4,
+        "class": "Specialist",
+        "tags": [
+            "Fast-Redeploy",
+            "Defense"
+        ],
+        "trait": "Significantly reduced Redeployment Time",
+        "talents": [
+            {
+                "Fast Deployment": "DP Cost -1",
+                "Support of the Little": "Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 6%"
+            }
+        ],
+        "skills": [
+            {
+                "Shadow Assault": "Def +200% after Gravel is deployed; DEF continuously reduces within 6.0 seconds"
+            },
+            {
+                "Rat Swarm": "When deployed, generates a shield with 100% of Max HP; the shield strength decays over 10.0 seconds"
+            }
+        ],
+        "internal_id": "char_237_gravel"
+    },
+    "Rope": {
+        "rarity": 4,
+        "class": "Specialist",
+        "tags": [
+            "Shift"
+        ],
+        "trait": "Can Shift enemies by using skills\nCan be deployed on Ranged Grids",
+        "talents": [
+            {
+                "Auditory Training": "Obtains 30% Physical Dodge"
+            }
+        ],
+        "skills": [
+            {
+                "Hook Shot": "The next attack deals 100% of ATK physical damage to its target and drags it towards this unit significantly"
+            },
+            {
+                "Double Hook": "The next attack deals 120% of ATK physical damage to up to 2 target and drags them towards this unit significantly"
+            }
+        ],
+        "internal_id": "char_236_rope"
+    },
+    "Myrrh": {
+        "rarity": 4,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "First Aid Kit": "Immediately restores the HP of all allies by 150% of Myrrh's ATK after deployment"
+            }
+        ],
+        "skills": [
+            {
+                "Dual Healing": "The next heal is increased to 100% of ATK and can target 1 extra ally can store 1.0 charge(s)"
+            },
+            {
+                "Medic Field": "Atk +5%; can heal 1 extra ally"
+            }
+        ],
+        "internal_id": "char_117_myrrh"
+    },
+    "Gavial": {
+        "rarity": 4,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "Battlefield Medic": "After deployed, all [Medic] Operators' ATK +10% and DEF +100, lasting 15 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Vitality Restoration": "Buffs the target ally in the next healing, restoring HP by 20% of Gavial's ATK (by 40% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 4.0 seconds can store 1.0 charge(s)"
+            },
+            {
+                "Vitality Restoration - Wide Range": "Buffs all allies within Range immediately, restoring HP by 15% of Gavial's ATK (by 38% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 7.0 seconds"
+            }
+        ],
+        "internal_id": "char_187_ccheal"
+    },
+    "Perfumer": {
+        "rarity": 4,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of 3 allies simultaneously",
+        "talents": [
+            {
+                "Lavender": "Restores the HP of all allies by 3% of Perfumer's ATK per second",
+                "Lavender's Fragrance": "Restores the HP of all allies by 5% of Perfumer's ATK per second"
+            }
+        ],
+        "skills": [
+            {
+                "Healing Up \u03b2": "Atk +15%"
+            },
+            {
+                "Fine Blending": "Aspd -50.0; ATK +150%"
+            }
+        ],
+        "internal_id": "char_181_flower"
+    },
+    "Matterhorn": {
+        "rarity": 4,
+        "class": "Defender",
+        "tags": [
+            "Defense"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Snowfield Guard": "RES +15"
+            }
+        ],
+        "skills": [
+            {
+                "Stamina Enhancement": "Max HP +20%; restores HP by 20.0 per second"
+            },
+            {
+                "Cold Resistance": "Max HP +20%; DEF +10%; res +50%"
+            }
+        ],
+        "internal_id": "char_199_yak"
+    },
+    "Cuora": {
+        "rarity": 4,
+        "class": "Defender",
+        "tags": [
+            "Defense"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Defense Specialist": "DEF +12%"
+            }
+        ],
+        "skills": [
+            {
+                "DEF Up \u03b2": "Def +20%"
+            },
+            {
+                "Shell Defense": "Stops attacking; Block +1.0; DEF +55%; restores HP by 1% of Max HP per second"
+            }
+        ],
+        "internal_id": "char_150_snakek"
+    },
+    "Gummy": {
+        "rarity": 4,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "Healing"
+        ],
+        "trait": "Can heal allies by using the skill",
+        "talents": [
+            {
+                "Frying Pan Specialist": "When attacking, has a 15% chance to increase the ATK of the current attack to 200% and Stun the target for 1 second"
+            }
+        ],
+        "skills": [
+            {
+                "Provisions": "Restores the HP of a nearby ally by 95% of Gummy's ATK in the next attack can store 1.0 charge(s)"
+            },
+            {
+                "Cooking": "Start cooking and stops attacking for 10.0 seconds; DEF +50% focuses on healing nearby allies after finishing cooking; ATK +30%"
+            }
+        ],
+        "internal_id": "char_196_sunbr"
+    },
+    "Deepcolor": {
+        "rarity": 4,
+        "class": "Supporter",
+        "tags": [
+            "Summon"
+        ],
+        "trait": "Deals Arts Damage\nCan use Summons in battles",
+        "talents": [
+            {
+                "Tentacle Summoner": "Can summon 4 Tentacles to help in combat"
+            }
+        ],
+        "skills": [
+            {
+                "Shadow Tentacle": "All tentacles' ATK and DEF +15%; restores 30.0 HP per second"
+            },
+            {
+                "Visual Trap": "Range expands; allies within Range obtain 25% physical dodge"
+            }
+        ],
+        "internal_id": "char_110_deepcl"
+    },
+    "Earthspirit": {
+        "rarity": 4,
+        "class": "Supporter",
+        "tags": [
+            "Slow"
+        ],
+        "trait": "Deals Arts Damage and Slows the target for a short time",
+        "talents": [
+            {
+                "Geological Survey": "Extends slightly the duration of Slow"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b2": "Atk +20%"
+            },
+            {
+                "Quicksand Conversion": "Stops attacking; enemies within Range are slowed every 2e+00 seconds"
+            }
+        ],
+        "internal_id": "char_183_skgoat"
+    },
+    "Shaw": {
+        "rarity": 4,
+        "class": "Specialist",
+        "tags": [
+            "Shift"
+        ],
+        "trait": "Can attack all blocked enemies\nCan be deployed on Ranged Grids",
+        "talents": [
+            {
+                "Fireproof Suit": "RES +15"
+            }
+        ],
+        "skills": [
+            {
+                "Steam Pump": "Pushes the target towards the attack direction greatly in the next attack, dealing 105% of ATK physical damage"
+            },
+            {
+                "High-Pressure Water Cannon": "Immediately pushes all enemies in the two frontal grids towards the attack direction significantly, dealing 180% of ATK physical damage to them"
+            }
+        ],
+        "internal_id": "char_277_sqrrel"
+    },
+    "Ptilopsis": {
+        "rarity": 5,
+        "class": "Medic",
+        "tags": [
+            "Healing",
+            "Support"
+        ],
+        "trait": "Restores the HP of 3 allies simultaneously",
+        "talents": [
+            {
+                "Skill Point Halo": "Greatly increases the Skill Point recovery speed of all allies when deployed"
+            }
+        ],
+        "skills": [
+            {
+                "Healing Up \u03b3": "Atk +40%"
+            },
+            {
+                "Enkephalin": "Range expands; reduces attack interval greatly"
+            }
+        ],
+        "internal_id": "char_128_plosis"
+    },
+    "Zima": {
+        "rarity": 5,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "Support"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "Spearheader": "All [Vanguard] Operators' DP Cost -1 when Zima is in the squad"
+            }
+        ],
+        "skills": [
+            {
+                "Charge \u03b3": "Instantly gains 12.0 Deployment Points."
+            },
+            {
+                "Ursus's Roar": "Gradually gains 9.0 dp over the skill duration all vanguard operators' ATK and DEF +25%; gains 1 extra dp when killing an enemy"
+            }
+        ],
+        "internal_id": "char_115_headbr"
+    },
+    "Texas": {
+        "rarity": 5,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "Crowd-Control"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "Tactical Delivery": "Gains 2 extra DP when Texas is in the squad"
+            }
+        ],
+        "skills": [
+            {
+                "Charge \u03b3": "Instantly gains 12.0 Deployment Points."
+            },
+            {
+                "Sword Rain": "Immediately gains 9.0 dp; deals 105% of ATK arts damage to all nearby enemies twice and stuns the hit targets for 2.0 seconds"
+            }
+        ],
+        "internal_id": "char_102_texas"
+    },
+    "Swire": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Support"
+        ],
+        "trait": "Can attack farther enemies",
+        "talents": [
+            {
+                "Melee Combat Guidance": "ATK of Melee Attack allies in the 8 surrounding grids +10% when Swire is deployed"
+            }
+        ],
+        "skills": [
+            {
+                "Command and Dispatch": "The effect Range of talent expands significantly and the talent is 2.0 times as effective"
+            },
+            {
+                "Cooperative Combat": "Atk +30%; the talent is 2.1 times as effective"
+            }
+        ],
+        "internal_id": "char_308_swire"
+    },
+    "Franka": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "Thermite Blade": "Has a 20% chance to ignore the target's Defense when attacking"
+            }
+        ],
+        "skills": [
+            {
+                "Swift Strike \u03b3": "Atk +20%; aspd +20.0"
+            },
+            {
+                "Vorpal Edge": "Def reduces to 0; ATK +50%; the chance of talent ignoring the target's DEF is increased to 2.5 times"
+            }
+        ],
+        "internal_id": "char_106_franka"
+    },
+    "Indra": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "Quick Fists": "Has a 30% chance to Dodge the enemy's Physical Melee Attack. ATK +100% in the next attack if the Dodge is successful"
+            }
+        ],
+        "skills": [
+            {
+                "Armorcrusher": "The ATK of the next hit +50% and ignores 35% of the target's DEF"
+            },
+            {
+                "Sundered Soul": "Atk +45%; damage dealt turns into arts damage; restores HP by 10% of damage dealt when attacking"
+            }
+        ],
+        "internal_id": "char_155_tiger"
+    },
+    "Lappland": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Debuff"
+        ],
+        "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+        "talents": [
+            {
+                "Spiritual Destruction": "Disables the target's special ability when attacking, lasting 5 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Sundial": "Atk +30%; 20% chance to resist physical damage infinite duration"
+            },
+            {
+                "Wolf Spirit": "Atk +60%; damage dealt turns into arts damage; attacks 1 extra target; the damage reduction of Ranged attacks is removed automatically activated"
+            }
+        ],
+        "internal_id": "char_140_whitew"
+    },
+    "Specter": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "AoE",
+            "Survival"
+        ],
+        "trait": "Attacks all blocked enemies",
+        "talents": [
+            {
+                "Stamina Up": "Max HP +10%",
+                "Abyssal Regeneration": "Max HP +10%; Restores HP by 2% of Max HP per second"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b3": "Atk +30%"
+            },
+            {
+                "Bone Fracture": "During the skill duration, Specter's HP will not drop below 1; ATK +40% Specter is stunned for 10.0 seconds after skill duration"
+            }
+        ],
+        "internal_id": "char_143_ghost"
+    },
+    "Blue Poison": {
+        "rarity": 5,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Neurotoxin": "Poisons the targets when attacking, dealing 75 Arts Damage to them per second, lasting 3 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Twinshot - Auto": "The next attack hits 1 additional target for 125% of ATK physical damage"
+            },
+            {
+                "Venom Spray": "Atk +10%, each attack strikes its primary target an additional 1 time\uff0cand also hits up to 2 additional targets."
+            }
+        ],
+        "internal_id": "char_129_bluep"
+    },
+    "Platinum": {
+        "rarity": 5,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "All-Out Attack": "The longer the interval from the last attack is, the higher the ATK of the next attack will be (The longest interval is 2.5 seconds and the corresponding ATK increases to 180%)"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b3": "Atk +30%"
+            },
+            {
+                "Pegasian Sight": "Aspd reduces slightly, but ATK +50%; Range expands infinite duration"
+            }
+        ],
+        "internal_id": "char_204_platnm"
+    },
+    "Meteorite": {
+        "rarity": 5,
+        "class": "Sniper",
+        "tags": [
+            "AoE",
+            "Debuff"
+        ],
+        "trait": "Deals AOE Physical Damage",
+        "talents": [
+            {
+                "Blast Attachment Refit": "Has a 30% chance to increase the ATK of the current attack by 60% when using Normal Attacks and skills"
+            }
+        ],
+        "skills": [
+            {
+                "Buckshot": "Attack aoe expands for the next attack, dealing 135% of ATK physical damage"
+            },
+            {
+                "High-Explosive Shell": "Immediately launches a firebomb, dealing 180% of ATK physical damage to all hit targets within Range and their DEF -130.0 for 10.0 seconds"
+            }
+        ],
+        "internal_id": "char_219_meteo"
+    },
+    "Amiya": {
+        "rarity": 5,
+        "class": "Caster",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "\uff1f\uff1f\uff1f": "\uff1f\uff1f\uff1f\uff1f\uff1f",
+                "Emotional Absorption": "Restores 2 extra Skill Points when attacking an enemy and 8 extra Skill Points when killing an enemy"
+            }
+        ],
+        "skills": [
+            {
+                "Tactical Chant \u03b3": "Aspd +30.0"
+            },
+            {
+                "Spirit Burst": "Fires 6.0 times with 33% ATK when attacking and attacks random targets within Range automatically activated; Amiya is stunned for 10.0 seconds after the skill duration"
+            },
+            {
+                "Chimera": "Atk +100%; Max HP +25%; Range expands; deals damage while ignoring targets' DEF and res. Amiya will be forced to retreat after using this skill"
+            }
+        ],
+        "internal_id": "char_002_amiya"
+    },
+    "Skyfire": {
+        "rarity": 5,
+        "class": "Caster",
+        "tags": [
+            "AoE",
+            "Crowd-Control"
+        ],
+        "trait": "Deals AOE Arts Damage",
+        "talents": [
+            {
+                "Arts Sniper": "Increases the Arts Damage taken by all blocked enemies by 15% when deployed"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b3": "Atk +30%"
+            },
+            {
+                "Fire of Heaven": "Attack interval increases; attack changes into summoning meteorites from the sky; meteorites take a while to fall down, dealing 170% of ATK arts damage to enemies in a large Range and stunning all hit targets for 0.1 seconds"
+            }
+        ],
+        "internal_id": "char_166_skfire"
+    },
+    "Mayer": {
+        "rarity": 5,
+        "class": "Supporter",
+        "tags": [
+            "Summon",
+            "Crowd-Control"
+        ],
+        "trait": "Deals Arts Damage\nCan use Summons in battles",
+        "talents": [
+            {
+                "Robotter": "Can summon 5 Robotters; ASPD of enemies against Robotters -25"
+            }
+        ],
+        "skills": [
+            {
+                "Bionic Device": "All robotters gain 10% physical and arts dodge allies on robotters' four adjacent tiles also gain the same buff"
+            },
+            {
+                "Detonate and Recycle": "Detonates all deployed robotters immediately, dealing 300% of Mayer's ATK arts damage to nearby enemies and stunning all hit targets for 1.0 seconds the exploded robotters will be recycled"
+            }
+        ],
+        "internal_id": "char_242_otter"
+    },
+    "Silence": {
+        "rarity": 5,
+        "class": "Medic",
+        "tags": [
+            "Healing"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "Booster Injection": "All [Medic] Operators' ASPD +12 when Silence is deployed"
+            }
+        ],
+        "skills": [
+            {
+                "Healing Up \u03b3": "Atk +40%"
+            },
+            {
+                "Medical Drone": "Obtains a medical drone can store at most 1 drone; the drone heals its surrounding allies when entering the battlefield and selfdestructs after 10 seconds"
+            }
+        ],
+        "internal_id": "char_108_silent"
+    },
+    "Warfarin": {
+        "rarity": 5,
+        "class": "Medic",
+        "tags": [
+            "Healing",
+            "Support"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "Blood Sample Recycle": "Restores 2 Skill Points to this Operator and a random ally within range when an enemy within range is killed"
+            }
+        ],
+        "skills": [
+            {
+                "Emergency Triage": "The next heal restores an additional 11% of its target's Max HP only available when the target's HP is lower than 50%; can store 2.0 charge(s)"
+            },
+            {
+                "Unstable Plasma": "Warfarin and a random ally within Range obtain the following status: ATK +30%; loses 3% of Max HP per second, lasting for 15.0 seconds"
+            }
+        ],
+        "internal_id": "char_171_bldsk"
+    },
+    "Nearl": {
+        "rarity": 5,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "Healing"
+        ],
+        "trait": "Can heal allies by using the skill",
+        "talents": [
+            {
+                "Healing Effect Up": "Nearl's healing effect increases by 10%",
+                "Pegasus's Halo": "Increases the healing effect received by all allies by 10% when deployed"
+            }
+        ],
+        "skills": [
+            {
+                "First Aid": "Restores the HP of a nearby ally with less than 50% HP by 110% of the operator's ATK in the next attack can store 1.0 charge(s)"
+            },
+            {
+                "First Aid Mode": "Atk +20%; stops attacking and focuses on healing surrounding allies"
+            }
+        ],
+        "internal_id": "char_148_nearl"
+    },
+    "Projekt Red": {
+        "rarity": 5,
+        "class": "Specialist",
+        "tags": [
+            "Fast-Redeploy",
+            "Crowd-Control"
+        ],
+        "trait": "Significantly reduced Redeployment Time",
+        "talents": [
+            {
+                "Chill": "Deals at least 30% of ATK damage every attack"
+            }
+        ],
+        "skills": [
+            {
+                "Execution Mode": "Atk +35% after Projekt Red is deployed; obtains 20% physical dodge"
+            },
+            {
+                "Wolfpack": "Immediately deals 140% of ATK physical damage to all nearby enemies after deployed and stuns the hit targets for 1.0 seconds"
+            }
+        ],
+        "internal_id": "char_144_red"
+    },
+    "Liskarm": {
+        "rarity": 5,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "DPS"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Tactical Defense": "Restores 1 Skill Point to this Operator and a random ally in the surrounding grids when attacked"
+            },
+            {
+                "Thunder Resistance": "RES +10"
+            }
+        ],
+        "skills": [
+            {
+                "Charged Defense": "Blocks the next source of damage; DEF +40% for 8.0 seconds automatically activated"
+            },
+            {
+                "Counter Arc": "Attack interval increases; ATK +85%; deals arts damage to at most 3.0 enemies when attacking and has a 10% chance to stun the hit targets for 1.0 seconds Liskarm is stunned for 5.0 seconds after the skill duration"
+            }
+        ],
+        "internal_id": "char_107_liskam"
+    },
+    "Croissant": {
+        "rarity": 5,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "Shift"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Miracle Field": "Has a 20% chance to resist Physical and Arts Damage. The allies in the four surrounding grids obtain half of the effect"
+            }
+        ],
+        "skills": [
+            {
+                "Auto Defense": "Def +20%; talent effect increases to 110% automatically activated"
+            },
+            {
+                "Magnetic Hammer": "Bumps nearby enemies away greatly, stunning them for 2.5 seconds and dealing 240% of ATK physical damage to them"
+            }
+        ],
+        "internal_id": "char_201_moeshd"
+    },
+    "Vulcan": {
+        "rarity": 5,
+        "class": "Defender",
+        "tags": [
+            "Survival",
+            "Defense",
+            "DPS"
+        ],
+        "trait": "Cannot be healed by allies",
+        "talents": [
+            {
+                "Self-Defense": "Restores HP by 4% of Max HP per second and obtains 25% Physical Melee Dodge when the skill is activated"
+            }
+        ],
+        "skills": [
+            {
+                "Guardian Mode": "Block +1; DEF +60%; restores HP by 2% of Max HP per second in addition"
+            },
+            {
+                "Combat Mode": "Block 1; attack interval slightly increases; ATK +65%; restores HP by 5% of Max HP when attacking and attacks all targets Blocked"
+            }
+        ],
+        "internal_id": "char_163_hpsts"
+    },
+    "Provence": {
+        "rarity": 5,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "High accuracy point-blank shot",
+        "talents": [
+            {
+                "Hunter's Arrow": "Has a 20% chance to increase the ATK of the current attack to 180% when attacking and the chance increases to 50% when an enemy is in the frontal grid"
+            }
+        ],
+        "skills": [
+            {
+                "Wolf's Eye": "Atk +8% every time the HP of the target falls by 20%"
+            },
+            {
+                "Prey Seeker": "Atk +130%, but normal attack will not target enemies with over 80% HP"
+            }
+        ],
+        "internal_id": "char_145_prove"
+    },
+    "Firewatch": {
+        "rarity": 5,
+        "class": "Sniper",
+        "tags": [
+            "DPS",
+            "Nuker"
+        ],
+        "trait": "Prioritizes attacking the enemy with lowest DEF within range first",
+        "talents": [
+            {
+                "Assassin": "ATK increases to 140% when attacking ranged enemies"
+            }
+        ],
+        "skills": [
+            {
+                "Camouflage": "Atk +24%; turns into invisible state (will not become the target of Ranged enemies)"
+            },
+            {
+                "Tactical Transceiver": "Randomly drops 2.0 bombs within Range (especially to enemy's position); every bomb deals 180% of ATK physical damage to all nearby enemies"
+            }
+        ],
+        "internal_id": "char_158_milu"
+    },
+    "Cliffheart": {
+        "rarity": 5,
+        "class": "Specialist",
+        "tags": [
+            "Shift",
+            "DPS"
+        ],
+        "trait": "Can Shift enemies by using skills\nCan be deployed on Ranged Grids",
+        "talents": [
+            {
+                "Karlan Hunter": "ATK and DEF +12% when Cliffheart is not blocking any enemies"
+            }
+        ],
+        "skills": [
+            {
+                "Chain Hook": "Drags the target to Cliffheart significantly in the next attack, dealing 115% of ATK arts damage to it"
+            },
+            {
+                "Binding Chains": "Drags at most 2.0 targets in the frontal line to Cliffheart significantly, dealing 130% of ATK damage that ignores targets' DEF and res to them and stunning them for 1.5 seconds"
+            }
+        ],
+        "internal_id": "char_173_slchan"
+    },
+    "Pramanix": {
+        "rarity": 5,
+        "class": "Supporter",
+        "tags": [
+            "Debuff"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Weakening": "Enemies in range are affected by [Fragile], making them take 130% damage when their HP is under 40%."
+            },
+            {
+                "Double Tinkle": "Attacks 2 enemies simultaneously when attacking"
+            }
+        ],
+        "skills": [
+            {
+                "Echolocation": "Simultaneously attacks 2.0 targets; aspd of all enemies in Range -30.0"
+            },
+            {
+                "Natural Deterrent": "For all enemies within Range, DEF -35% and res -20%"
+            }
+        ],
+        "internal_id": "char_174_slbell"
+    },
+    "Istina": {
+        "rarity": 5,
+        "class": "Supporter",
+        "tags": [
+            "Slow",
+            "DPS"
+        ],
+        "trait": "Deals Arts Damage and Slows the target for a short time",
+        "talents": [
+            {
+                "Explorer": "DEF -35%; ASPD +18"
+            }
+        ],
+        "skills": [
+            {
+                "Concentration": "Very significant attack interval reduction"
+            },
+            {
+                "Literature Storm": "Atk +20%; Range expands; attacks 2 extra targets"
+            }
+        ],
+        "internal_id": "char_195_glassb"
+    },
+    "Sora": {
+        "rarity": 5,
+        "class": "Supporter",
+        "tags": [
+            "Support",
+            "Healing"
+        ],
+        "trait": "Does not attack but continuously restores the HP of all allies within range (the HP restored per second is equal to 10% of Sora's ATK)",
+        "talents": [
+            {
+                "Encore": "Has a 50% chance to immediately restore Skill Point by 50% of Max Skill Points when the skill ends"
+            }
+        ],
+        "skills": [
+            {
+                "Hymn of Respite": "Range expands; all enemies within Range are put to sleep  (stun and invincible) and the effect of Sora's feature increases to 45%"
+            },
+            {
+                "Hymn of Battle": "The ATK of all allies within Range is increased by 70% of Sora's ATK"
+            }
+        ],
+        "internal_id": "char_101_sora"
+    },
+    "Manticore": {
+        "rarity": 5,
+        "class": "Specialist",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Deals Damage to all targets within range\n50% chance to dodge Physical and Arts attacks and is less likely to be targeted by enemies",
+        "talents": [
+            {
+                "Hidden Killer - Medium": "Stays in Invisible state normally (cannot be selected as the ranged-attack target); Removes the Invisible state when attacking and the ATK of the current attack +25%. Turns into Invisible state again after stopping attacking for 6 seconds",
+                "Hidden Killer - Elite": "Stays in Invisible state normally (cannot be selected as the ranged-attack target); Removes the Invisible state when attacking and the ATK of the current attack +50%. Turns into Invisible state again after stopping attacking for 5 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Scorpion Venom": "The movement speed of targets hit -23% for 3.0 seconds"
+            },
+            {
+                "Toxic Overload": "Attack animation and attack interval increase; ATK +30%; stuns the hit targets for 0.5 seconds"
+            }
+        ],
+        "internal_id": "char_215_mantic"
+    },
+    "FEater": {
+        "rarity": 5,
+        "class": "Specialist",
+        "tags": [
+            "Shift",
+            "Slow"
+        ],
+        "trait": "Can attack all blocked enemies\nCan be deployed on Ranged Grids",
+        "talents": [
+            {
+                "Kung Fu": "Obtains 40% Physical Dodge"
+            }
+        ],
+        "skills": [
+            {
+                "Raging Iron Fist": "The next attack pushes enemies towards the attack direction significantly and their movement speed -15% for 3.0seconds "
+            },
+            {
+                "Destructive Fist": "Rushes forward immediately and targets the closest enemy in the frontal line; knocks back all nearby enemies significantly, dealing 160% of ATK physical damage and the targets' movement speed -15% for 3.0 seconds"
+            }
+        ],
+        "internal_id": "char_241_panda"
+    },
+    "Exusiai": {
+        "rarity": 6,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Fast Cartridge": "ASPD +12"
+            },
+            {
+                "Angel's Blessings": "ATK +6%; Max HP +10%; The same buff is given to a random ally when Exusiai is deployed"
+            }
+        ],
+        "skills": [
+            {
+                "Charging Mode": "Shoots 3.0 times in a row in the next attack, dealing 105% of ATK damage with every shot"
+            },
+            {
+                "Shooting Mode": "Shoots 4.0 times in a row, dealing 100% of ATK damage with every shot"
+            },
+            {
+                "Overloading Mode": "Shoots 5.0 times in a row; slight attack interval reduction; ATK increases to 100% automatically activated"
+            }
+        ],
+        "internal_id": "char_103_angel"
+    },
+    "Siege": {
+        "rarity": 6,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "DPS"
+        ],
+        "trait": "Blocks 2 enemies",
+        "talents": [
+            {
+                "King of Beasts": "All Vanguard Operators' ATK and DEF +8%"
+            },
+            {
+                "Crushing": "Obtains 1 Skill Point when an enemy in the four surrounding grids is killed"
+            }
+        ],
+        "skills": [
+            {
+                "Charge \u03b3": "Instantly gains 12.0 Deployment Points."
+            },
+            {
+                "Aerial Hammer": "Deals 220% of ATK physical damage to all nearby enemies in the next attack; gains 3.0 dp can store 1.0 charge(s)"
+            },
+            {
+                "Skull Breaker": "Attack interval increases; increases ATK to 260% when attacking; has a 40% chance to stun the targets for 0.5 seconds"
+            }
+        ],
+        "internal_id": "char_112_siege"
+    },
+    "Ifrit": {
+        "rarity": 6,
+        "class": "Caster",
+        "tags": [
+            "AoE",
+            "Debuff"
+        ],
+        "trait": "Deals AOE Arts Damage in a long line",
+        "talents": [
+            {
+                "Spiritual Dissolution": "RES of enemies within range -40%"
+            },
+            {
+                "Rhine Loop": "Restores 2 extra Skill Points every 6 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Fanaticism": "Atk +10%; aspd +45.0"
+            },
+            {
+                "Pyroclasm": "Deals 130% of ATK arts damage in the next attack;targets' DEF -100.0 for 3 seconds; causes them to take burn damage can store 2.0 charge(s)"
+            },
+            {
+                "Scorched Earth": "Deals 75% of ATK arts damage per second to ground enemies within Range and reduces targets' res by -7.0 this unit loses 2% of Max HP per second"
+            }
+        ],
+        "internal_id": "char_134_ifrit"
+    },
+    "Eyjafjalla": {
+        "rarity": 6,
+        "class": "Caster",
+        "tags": [
+            "DPS",
+            "Debuff"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Pyrobreath": "All [Caster] Operators' ATK +14% when Eyjafjalla is deployed"
+            },
+            {
+                "Wild Fire": "Immediately obtains a small random number of Skill Points after deployment"
+            }
+        ],
+        "skills": [
+            {
+                "Duetto": "ASPD +30.0 Starting from the second use of the skill, ATK +30%"
+            },
+            {
+                "Ignition": "Deals 240% of ATK arts damage in the next attack; deals half damage to enemies around the target and their res -10% for 6.0 seconds can store 1.0 charge(s)"
+            },
+            {
+                "Volcano": "Atk +55%; Range increases; attack interval reduces significantly; attack becomes randomly shooting lava that can hit at most 3.0 enemies within Range"
+            }
+        ],
+        "internal_id": "char_180_amgoat"
+    },
+    "Angelina": {
+        "rarity": 6,
+        "class": "Supporter",
+        "tags": [
+            "Slow",
+            "DPS",
+            "Support"
+        ],
+        "trait": "Deals Arts Damage and Slows the target for a short time",
+        "talents": [
+            {
+                "Accelerator Field": "All allies' ASPD +7"
+            },
+            {
+                "Part-time Job": "Restores the HP of all allies by 20 per second when the skill is not activated"
+            }
+        ],
+        "skills": [
+            {
+                "Arcane Staff - Quick Charge Mode": "Atk +40% automatically activated"
+            },
+            {
+                "Arcane Staff - Particle Mode": "Attack interval reduces dramatically, but the arts damage dealt by every attack is only 30% of ATK cannot use normal attack when the skill is not activated"
+            },
+            {
+                "Arcane Staff - Anti-Gravity Mode": "All enemies' weight reduces by one level; Range expands; ATK +75%; can attack 4.0 enemies cannot use normal attack when the skill is not activated"
+            }
+        ],
+        "internal_id": "char_291_aglina"
+    },
+    "Shining": {
+        "rarity": 6,
+        "class": "Medic",
+        "tags": [
+            "Healing",
+            "Support"
+        ],
+        "trait": "Restores the HP of allies",
+        "talents": [
+            {
+                "Black Fiend's Protection": "DEF of allies within range +60"
+            },
+            {
+                "Code of Law": "ASPD +10"
+            }
+        ],
+        "skills": [
+            {
+                "Creed": "Atk +45%; aspd +10.0"
+            },
+            {
+                "Auto Protect": "The next heal generates a shield on its target for 2.0 seconds the shield can absorb damage equal to 20% of Shining's ATK and the target's DEF +20%; can store 1.0 charge(s)"
+            },
+            {
+                "Creed Field": "Atk +20% all allies within Range DEF +30%"
+            }
+        ],
+        "internal_id": "char_147_shining"
+    },
+    "Nightingale": {
+        "rarity": 6,
+        "class": "Medic",
+        "tags": [
+            "Healing",
+            "Support"
+        ],
+        "trait": "Restores the HP of 3 allies simultaneously",
+        "talents": [
+            {
+                "White Fiend's Protection": "RES of allies within range +15"
+            },
+            {
+                "Fleeting Phantom": "Can use Phantom. Phantom can not attack or block enemies, but it has 75 RES and 30% Physical Dodge and enemies are more likely to attack it. Phantom loses HP by 3% of Max HP per second"
+            }
+        ],
+        "skills": [
+            {
+                "Healing Up \u03b3": "Atk +40%"
+            },
+            {
+                "Arts Shield": "The next heal generates a shield on all affected target for 3.0 seconds the shields can absorb damage equal to 40% of Nightingale's ATK arts damage and the targets' res +5.0; can store 1.0 charge(s)"
+            },
+            {
+                "Sanctuary": "Range expands; ATK +30%; res of allies within Range +75% and grants them 10% arts dodge"
+            }
+        ],
+        "internal_id": "char_179_cgbird"
+    },
+    "Hoshiguma": {
+        "rarity": 6,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "DPS"
+        ],
+        "trait": "Blocks 3 enemies",
+        "talents": [
+            {
+                "Tactical Armor": "25% chance to resist Physical and Arts damage"
+            },
+            {
+                "Special Operation Strategy": "Increases DEF of all Defenders by 6%"
+            }
+        ],
+        "skills": [
+            {
+                "Warpath": "Def +35%; ATK +10%"
+            },
+            {
+                "Thorns": "Def +5% deals 50% of ATK physical damage to enemies that attack Hoshiguma"
+            },
+            {
+                "Saw of Strength": "Atk +65%; DEF +40%; cuts all targets in the frontal grid with the shield"
+            }
+        ],
+        "internal_id": "char_136_hsguma"
+    },
+    "Saria": {
+        "rarity": 6,
+        "class": "Defender",
+        "tags": [
+            "Defense",
+            "Healing",
+            "Support"
+        ],
+        "trait": "Can heal allies by using the skill",
+        "talents": [
+            {
+                "Rhine Charged Suit": "For every 20 seconds Saria is deployed, ATK +5% and DEF +4%, stacking up to 5 times"
+            },
+            {
+                "Refreshment": "When Saria restores an ally's HP, she also restores 1 extra Skill Point to them"
+            }
+        ],
+        "skills": [
+            {
+                "First Aid": "Restores the HP of a nearby ally with less than 50% HP by 110% of the operator's ATK in the next attack can store 1.0 charge(s)"
+            },
+            {
+                "Medicine Dispensing": "Restores the HP of all allies within a certain Range by 80% of Saria's ATK"
+            },
+            {
+                "Calcification": "Restores the HP of all nearby allies by 10% of Saria's ATK The Arts damage taken by nearby enemies +20% and their Movement Speed -60%"
+            }
+        ],
+        "internal_id": "char_202_demkni"
+    },
+    "SilverAsh": {
+        "rarity": 6,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Support"
+        ],
+        "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+        "talents": [
+            {
+                "Leader": "ATK +10%; All allies' Redeployment Time -10%"
+            },
+            {
+                "Eagle Eyes": "Reveals invisible enemies within range"
+            }
+        ],
+        "skills": [
+            {
+                "Power Strike \u03b3": "Increases the ATK of next attack to 190%"
+            },
+            {
+                "Rules of Survival": "Can switch between the original state and the following state: Range reduces; DEF +35%; restores HP by 3% of Max HP per second"
+            },
+            {
+                "Truesilver Slash": "Def -70%; ATK +110%; Range expands; attacks at most 3.0 targets simultaneously (regarded as melee attack)"
+            }
+        ],
+        "internal_id": "char_172_svrash"
+    },
+    "Ch'en": {
+        "rarity": 6,
+        "class": "Guard",
+        "tags": [
+            "Nuker",
+            "DPS"
+        ],
+        "trait": "Normal attacks deal damage twice",
+        "talents": [
+            {
+                "Scolding": "Restores 1 Skill Point Once Attacking/Skill Point Once Attacked every 4 seconds when deployed"
+            },
+            {
+                "Blade Art": "ATK +5%; DEF +5%; Physical Dodge +10%"
+            }
+        ],
+        "skills": [
+            {
+                "Sheathed Strike": "Throws the sheath to enemies in the next attack, dealing 200% of ATK physical damage and stuns the hit targets for 1.0 seconds"
+            },
+            {
+                "Chi Xiao - Unsheath": "Deals 330% of ATK physical damage and 330% of ATK arts damage to at most 4.0 enemies in front of this unit"
+            },
+            {
+                "Chi Xiao - Shadowless": "Looks for the closest enemy around and launches strike 10.0 times in a row, dealing 200% of ATK physical damage every time and stunning the target for 2.0 seconds by the last strike"
+            }
+        ],
+        "internal_id": "char_010_chen"
+    },
+    "Medic Drone": {
+        "rarity": 5,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "Self-Destruct": "Selfdestructs in 10 seconds"
+            },
+            {
+                "Self-Destruct": "Selfdestructs in 10 seconds"
+            }
+        ],
+        "internal_id": "token_10000_silent_healrb"
+    },
+    "Tentacle": {
+        "rarity": 4,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": [
+            {
+                "null": "+3 Tokens"
+            }
+        ],
+        "skills": null,
+        "internal_id": "token_10001_deepcl_tentac"
+    },
+    "Mirage": {
+        "rarity": 6,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": null,
+        "internal_id": "token_10003_cgbird_bird"
+    },
+    "Robotter": {
+        "rarity": 5,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": [
+            {
+                "Robotter - Operation": "Reduces the ASPD of enemy attackers by 10",
+                "Robotter - Improvement": "Reduces the ASPD of enemy attackers by 25",
+                "Robotter - Extension": "Reduces the ASPD of enemy attackers by 25"
+            }
+        ],
+        "skills": [
+            {
+                "Bionic Device": "All Robotters gain 10% physical and arts dodge allies on Robotters' four adjacent tiles also gain the same buff"
+            },
+            {
+                "Detonate and Recycle": "Detonates all deployed Robotters, dealing 300% of mayer's ATK arts damage to nearby enemies and stunning them for 1.0 seconds the exploded Robotters will be recycled"
+            }
+        ],
+        "internal_id": "token_10004_otter_motter"
+    },
+    "Soaring Dragon F": {
+        "rarity": 6,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": [
+            {
+                "null": "+5 Tokens"
+            },
+            {
+                "null": "Hidden for 20 seconds after deployment"
+            }
+        ],
+        "skills": [
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            },
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            },
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            }
+        ],
+        "internal_id": "token_10005_mgllan_drone1"
+    },
+    "Soaring Dragon L": {
+        "rarity": 6,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": [
+            {
+                "null": "+5 Tokens"
+            },
+            {
+                "null": "Hidden for 20 seconds after deployment"
+            }
+        ],
+        "skills": [
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            },
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            },
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            }
+        ],
+        "internal_id": "token_10005_mgllan_drone2"
+    },
+    "Soaring Dragon A": {
+        "rarity": 6,
+        "class": "Summoned Unit",
+        "tags": null,
+        "trait": null,
+        "talents": [
+            {
+                "null": "+5 Tokens"
+            },
+            {
+                "null": "Hidden for 20 seconds after deployment"
+            }
+        ],
+        "skills": [
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            },
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            },
+            {
+                "Recycle": "This unit retreats after skill duration ends"
+            }
+        ],
+        "internal_id": "token_10005_mgllan_drone3"
+    },
+    "Roadblock": {
+        "rarity": 1,
+        "class": "Obstacle",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "Road Blocking": "Deploy a roadBlock, changing enemies' route if the roadBlock is deployed on enemies, they will destroy it"
+            }
+        ],
+        "internal_id": "trap_001_crate"
+    },
+    "Stun Generator": {
+        "rarity": 1,
+        "class": "Obstacle",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "EMP Blast": "Consumes 10.0 dp to immediately deal damage to all nearby enemies and stun the targets hit for 7.0 seconds"
+            }
+        ],
+        "internal_id": "trap_002_emp"
+    },
+    "Gate": {
+        "rarity": 1,
+        "class": "Obstacle",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "Gate Closing": "Consumes 10.0 dp to close the Gate"
+            }
+        ],
+        "internal_id": "trap_003_gate"
+    },
+    "Detector": {
+        "rarity": 1,
+        "class": "Obstacle",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "Detection": "Nearby enemies' invisibility is disabled when the skill is activated"
+            }
+        ],
+        "internal_id": "trap_005_sensor"
+    },
+    "Jammer": {
+        "rarity": 1,
+        "class": "Obstacle",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "Drone Interference": "Enemy's drones within Range cannot attack, lose their special ability and lose 50% movement speed enemies will attack this drone first"
+            }
+        ],
+        "internal_id": "trap_006_antidr"
+    },
+    "Turret": {
+        "rarity": 1,
+        "class": "Obstacle",
+        "tags": null,
+        "trait": null,
+        "talents": null,
+        "skills": [
+            {
+                "Bolt Launching": "Shoots a bolt forwards, dealing physical damage to the first operator hit"
+            }
+        ],
+        "internal_id": "trap_007_ballis"
+    },
+    "Savage": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "AoE",
+            "Nuker"
+        ],
+        "trait": "Attacks all blocked enemies",
+        "talents": [
+            {
+                "Valley": "ATK and DEF +10% when there are more than two ranged grids in the four surrounding grids"
+            }
+        ],
+        "skills": [
+            {
+                "Power Strike \u03b2": "Increases the ATK of next attack to 170%"
+            },
+            {
+                "Precise Blast": "Deals 300% of ATK physical damage to at most 3.0 enemies within three grids ahead"
+            }
+        ],
+        "internal_id": "char_230_savage"
+    },
+    "Catapult": {
+        "rarity": 3,
+        "class": "Sniper",
+        "tags": [
+            "AoE"
+        ],
+        "trait": "Deals AOE Physical Damage",
+        "talents": [
+            {
+                "Lightweight": "DP Cost -1"
+            }
+        ],
+        "skills": [
+            {
+                "Blast Range Up \u03b1": "Increases aoe of normal attacks to 150%"
+            }
+        ],
+        "internal_id": "char_282_catap"
+    },
+    "Midnight": {
+        "rarity": 3,
+        "class": "Guard",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
+        "talents": [
+            {
+                "Targeting - Primary": "Has a 20% chance to increase the ATK of the current attack to 150% when attacking"
+            }
+        ],
+        "skills": [
+            {
+                "Enchant Weapon \u03b1": "Atk +5%; damage dealt by normal attacks turn into arts damage"
+            }
+        ],
+        "internal_id": "char_283_midn"
+    },
+    "Beehunter": {
+        "rarity": 4,
+        "class": "Guard",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "Boxer's Concentration": "Increases the ATK of every attack by 5% when attacking the same target, stacking up to 5 times. The stacking effect will be lost when switching targets"
+            }
+        ],
+        "skills": [
+            {
+                "Flexibility": "20% chance to dodge physical attacks"
+            },
+            {
+                "Soaring Fists": "Significant attack interval reduction"
+            }
+        ],
+        "internal_id": "char_137_brownb"
+    },
+    "Nightmare": {
+        "rarity": 5,
+        "class": "Caster",
+        "tags": [
+            "DPS",
+            "Healing",
+            "Slow"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Dual Personality": "Obtains 40% Physical and Arts Dodge when equipped with skill 1; Obtains 15% ATK when equipped with skill 2"
+            }
+        ],
+        "skills": [
+            {
+                "Drain Soul": "Each attack restores the HP of at most 1.0 allies by 40% of damage dealt to enemies"
+            },
+            {
+                "Night Phantom": "Inflict Nightmare on at most 3.0 enemies within Range: targets' movement speed -60%; deals damage while ignoring targets' DEF and res according to targets' movement distance for 5.0 seconds"
+            }
+        ],
+        "internal_id": "char_164_nightm"
+    },
+    "Grani": {
+        "rarity": 5,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "Defense"
+        ],
+        "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+        "talents": [
+            {
+                "Mounted Police": "All [Vanguard] Operators obtain 20% Physical Dodge when Grani is deployed"
+            }
+        ],
+        "skills": [
+            {
+                "DEF Up \u03b3": "Def +30%"
+            },
+            {
+                "Press the Attack!": "Range shortens; ATK & DEF +30%; Block +1.0; attacks all Blocked targets"
+            }
+        ],
+        "internal_id": "char_220_grani"
+    },
+    "Skadi": {
+        "rarity": 6,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "Abyssal Predator": "Increases ATK of \"Abyssal Hunters\" Operators by 14%"
+            },
+            {
+                "Swift Action": "Redeployment Time -10 seconds"
+            }
+        ],
+        "skills": [
+            {
+                "Swift Strike \u03b3": "Atk +20%; aspd +20.0"
+            },
+            {
+                "Wave Strike": "Atk +80% for 15.0 seconds after Skadi is deployed"
+            },
+            {
+                "Tidal Elegy": "Atk, DEF and Max HP +70%"
+            }
+        ],
+        "internal_id": "char_263_skadi"
+    }
+}
