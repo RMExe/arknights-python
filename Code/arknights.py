@@ -38,7 +38,7 @@ def build_dict(name):
     unit = data[name]
     url = "https://aceship.github.io/AN-EN-Tags/akhrchars.html?opname="
     icon_url = "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/classes/class_{}.png"
-    av_url = "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/avatars/{}.png",
+    av_url = "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/avatars/{}.png"
     embed_dict = {
         "title" : name,
         "description" : "★" * unit["rarity"],
@@ -55,10 +55,11 @@ def build_dict(name):
         },
         "fields" : make_fields(unit)
     }
+    
     return embed_dict
 
 
-def build_arknights_embed(name):
+def build_arknights_embed(name, elite=1):
     return discord.Embed.from_dict(build_dict(name))
 
 

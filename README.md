@@ -6,3 +6,10 @@ Please see [this readme](./Data/README.md) for how to download the raw `.json` i
 
 ## [arknights.py](./Code/arknights.py)
 Contains a few functions, but of interest is `arknights(name)`, which will fuzzy search its input with a list of operators and then return a discord embed object for use with a discord bot.
+
+### To Do
+Add parameter to select Elite 2 art & portrait for 4* and above operators
+
+
+#### Example Output
+![example](./Img/embed_example.PNG)
