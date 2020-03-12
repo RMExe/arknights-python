@@ -1,6 +1,6 @@
 # Arknights Embed Builder
 ## [data_cleaning.py](./Code/data_cleaning.py)
-This script will transform the character and skill data `.json` files from [Aceship](https://aceship.github.io/) and output to a cleaned file for use in the discord embed building code.
+This script will transform the character and skill data `.json` files from [Aceship](https://aceship.github.io/) and output to a cleaned file for use in the discord embed building code. This script should only be needed to update the included `cleaned_characters.json` from this repo.
 
 Please see [this readme](./Data/README.md) for how to download the raw `.json` it expects.
 
