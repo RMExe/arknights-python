@@ -13,3 +13,4 @@ Add parameter to select Elite 2 art & portrait for 4* and above operators
 
 #### Example Output
 ![example](./Img/embed_example.PNG)
+*Courtesy of [Embed Vizualizer](https://leovoel.github.io/embed-visualizer/)*
