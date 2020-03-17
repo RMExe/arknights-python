@@ -1017,7 +1017,7 @@
         "trait": "Restores the HP of 3 allies simultaneously",
         "talents": [
             {
-                "Skill Point Halo": "Greatly increases the Skill Point recovery speed of all allies when deployed"
+                "Skill Point Halo": "When deployed, increases the SP recovery of all allies by 0.3/sec (only the highest effect of this type will be applied)"
             }
         ],
         "skills": [
