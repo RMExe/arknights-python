@@ -12,12 +12,13 @@ import re
 
 # ### Read-in
 
-with open('../Data/character_table.json', encoding="utf-8") as f:
-    data = json.load(f)
+# with open('../Data/character_table.json', encoding="utf-8") as f:
+#     data = json.load(f)
     
-with open('../Data/skill_table.json', encoding="utf-8") as f:
-    skill_data = json.load(f)
-
+# with open('../Data/skill_table.json', encoding="utf-8") as f:
+#     skill_data = json.load(f)
+data = requests.get("https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/json/gamedata/en_US/gamedata/excel/character_table.json").json()
+skill_data = requests.get("https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/json/gamedata/en_US/gamedata/excel/skill_table.json").json()
 
 # ## Transform
 
