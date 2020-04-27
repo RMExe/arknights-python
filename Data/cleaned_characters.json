@@ -72,7 +72,7 @@
         "trait": "Attacks aerial enemies first",
         "talents": [
             {
-                "Anti-Air Master": "ATK +50% when the target is an aerial unit"
+                "Anti-Air Master": "ATK +50% when attacking aerial targets"
             }
         ],
         "skills": [],
@@ -88,7 +88,7 @@
         "trait": "Deals Arts Damage",
         "talents": [
             {
-                "Lucky Lass": "Obtains 50% Arts Dodge"
+                "Lucky Lass": "50% Arts Dodge"
             }
         ],
         "skills": [],
@@ -104,7 +104,7 @@
         "trait": "Deals AOE Arts Damage",
         "talents": [
             {
-                "Dodge Rate Up": "Obtains 50% Physical Dodge"
+                "Dodge Rate Up": "50% Physical Dodge"
             }
         ],
         "skills": [],
@@ -284,7 +284,7 @@
         "trait": "Attacks aerial enemies first",
         "talents": [
             {
-                "Targeting - Primary": "Has a 20% chance to increase the ATK of the current attack to 150% when attacking"
+                "Targeting - Primary": "When attacking, has a 20% chance to increase the current damage of that attack to 150%"
             }
         ],
         "skills": [
@@ -364,7 +364,7 @@
         "trait": "Restores the HP of allies",
         "talents": [
             {
-                "Additional Healing": "Has a 15% chance to heal 1 extra ally"
+                "Additional Healing": "15% chance to heal 1 extra ally"
             }
         ],
         "skills": [
@@ -521,7 +521,7 @@
         "trait": "Attacks aerial enemies first",
         "talents": [
             {
-                "Anti-Air Specialist": "ATK +35% when the target is an aerial unit"
+                "Anti-Air Specialist": "ATK +35% when attacking aerial targets"
             }
         ],
         "skills": [
@@ -534,6 +534,29 @@
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_126_shotst_1.png",
         "internal_id": "char_126_shotst"
+    },
+    "Vermeil": {
+        "rarity": 4,
+        "class": "Sniper",
+        "tags": [
+            "DPS"
+        ],
+        "trait": "Attacks aerial enemies first",
+        "talents": [
+            {
+                "Hunter's Wisdom": "Significantly increases this unit\u2019s Skill Point recovery speed"
+            }
+        ],
+        "skills": [
+            {
+                "ATK Up \u03b2": "Atk +20%"
+            },
+            {
+                "Double Shot": "Atk +10%\uff0ceach attack hits 1 additional target."
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_190_clour_1.png",
+        "internal_id": "char_190_clour"
     },
     "Shirayuki": {
         "rarity": 4,
@@ -601,7 +624,7 @@
                 "Charge \u03b2": "Instantly gains 9.0 Deployment Points."
             },
             {
-                "Command - Attack": "Immediately gains 11.0 costs ATK +20%"
+                "Command - Attack": "Immediately gains 11.0 Deployment Points ATK +20%"
             }
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_149_scave_1.png",
@@ -617,7 +640,7 @@
         "trait": "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
         "talents": [
             {
-                "Fierce Stabbing": "Has a 10% chance to increase the ATK of the current attack by 100% when attacking. The chance increases to 30% when Vigna uses her skill"
+                "Fierce Stabbing": "When attacking, has a 10% chance to increase the current damage of that attack by 100%. The chance increases to 30% when Vigna\u2019s skill is active."
             }
         ],
         "skills": [
@@ -625,11 +648,35 @@
                 "ATK Up \u03b2": "Atk +20%"
             },
             {
-                "Mallet Sound": "Attack interval increases a bit; ATK +90%"
+                "Hammer-On": "Attack interval increases a bit; ATK +90%"
             }
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_290_vigna_1.png",
         "internal_id": "char_290_vigna"
+    },
+    "Myrtle": {
+        "rarity": 4,
+        "class": "Vanguard",
+        "tags": [
+            "DP-Recovery",
+            "Healing"
+        ],
+        "trait": "Cannot block enemies during the skill duration",
+        "talents": [
+            {
+                "Glistening": "All [Vanguard] Operators recover 25 HP per second while Myrtle is deployed"
+            }
+        ],
+        "skills": [
+            {
+                "Support \u03b2": "Stops attacking and recovers 14.0 dp over the skill duration"
+            },
+            {
+                "Healing Wings": "Stops attacking and recovers 16.0 dp over the skill duration, healing a nearby friendly unit's HP equal to 25% of Myrtle's ATK"
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_151_myrtle_1.png",
+        "internal_id": "char_151_myrtle"
     },
     "Dobermann": {
         "rarity": 4,
@@ -638,7 +685,7 @@
             "DPS",
             "Support"
         ],
-        "trait": "Can attack farther enemies",
+        "trait": "Can attack enemies from range",
         "talents": [
             {
                 "Starter Instructor": "All three-star Operators' ATK +10%"
@@ -694,10 +741,10 @@
         ],
         "skills": [
             {
-                "Frost Tomahawk": "Deals 105% of ATK physical damage in the next attack, the movement speed of targets hit -20% for 1.5 seconds"
+                "Frost Tomahawk": "Deals 105% of ATK physical damage in the next attack and the movement speed of targets -20% for 1.5 seconds"
             },
             {
-                "Ice Tomahawk": "Aspd +5.0; the movement speed of targets hit -30% and has a 15% chance to freeze them for 1.5 seconds"
+                "Ice Tomahawk": "Aspd +5.0; the movement speed of targets -30% and has a 15% chance to freeze them for 1.5 seconds"
             }
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_193_frostl_1.png",
@@ -761,12 +808,12 @@
         "talents": [
             {
                 "Fast Deployment": "DP Cost -1",
-                "Support of the Little": "Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 6%"
+                "Support of the Little": "DP Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 6%"
             }
         ],
         "skills": [
             {
-                "Shadow Assault": "Def +200% after Gravel is deployed; DEF continuously reduces within 6.0 seconds"
+                "Shadow Assault": "Def +200% after Gravel is deployed; her DEF continually decreases over 6.0 seconds"
             },
             {
                 "Rat Swarm": "When deployed, generates a shield with 100% of Max HP; the shield strength decays over 10.0 seconds"
@@ -924,7 +971,7 @@
         "trait": "Can heal allies by using the skill",
         "talents": [
             {
-                "Frying Pan Specialist": "When attacking, has a 15% chance to increase the ATK of the current attack to 200% and Stun the target for 1 second"
+                "Frying Pan Specialist": "When attacking, has a 15% chance to increase the current damage of that attack to 200% and Stun the target for 1 second"
             }
         ],
         "skills": [
@@ -932,7 +979,7 @@
                 "Provisions": "Restores the HP of a nearby ally by 95% of Gummy's ATK in the next attack can store 1.0 charge(s)"
             },
             {
-                "Cooking": "Start cooking and stops attacking for 10.0 seconds; DEF +50% focuses on healing nearby allies after finishing cooking; ATK +30%"
+                "Cooking": "Starts cooking and stops attacking for 10.0 seconds; DEF +50% focuses on healing nearby allies after finishing cooking; ATK +30%"
             }
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_196_sunbr_1.png",
@@ -970,7 +1017,7 @@
         "trait": "Deals Arts Damage and Slows the target for a short time",
         "talents": [
             {
-                "Geological Survey": "Extends slightly the duration of Slow"
+                "Geological Survey": "Extends Slow duration slightly"
             }
         ],
         "skills": [
@@ -1017,7 +1064,7 @@
         "trait": "Restores the HP of 3 allies simultaneously",
         "talents": [
             {
-                "Skill Point Halo": "When deployed, increases the SP recovery of all allies by 0.3/sec (only the highest effect of this type will be applied)"
+                "Skill Aura": "When deployed, increases the SP recovery of all allies by 0.3/sec (only the highest effect of this type will be applied)"
             }
         ],
         "skills": [
@@ -1086,7 +1133,7 @@
             "DPS",
             "Support"
         ],
-        "trait": "Can attack farther enemies",
+        "trait": "Can attack enemies from range",
         "talents": [
             {
                 "Melee Combat Guidance": "ATK of Melee Attack allies in the 8 surrounding grids +10% when Swire is deployed"
@@ -1126,6 +1173,30 @@
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_106_franka_1.png",
         "internal_id": "char_106_franka"
+    },
+    "Flamebringer": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Blocks 1 enemy",
+        "talents": [
+            {
+                "Bloody Slaughter": "Increases Max HP by 40 after defeating an enemy, stacking up to 30 times."
+            }
+        ],
+        "skills": [
+            {
+                "Blood Pact": "The next attack\u2019s power is increased to155%\uff0cand restores HP by 5%"
+            },
+            {
+                "Blade Demon": "Atk +30%\uff0caspd +30.0 infinite duration."
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_131_flameb_1.png",
+        "internal_id": "char_131_flameb"
     },
     "Indra": {
         "rarity": 5,
@@ -1200,6 +1271,30 @@
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_143_ghost_1.png",
         "internal_id": "char_143_ghost"
     },
+    "Astesia": {
+        "rarity": 5,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Defense"
+        ],
+        "trait": "Deals Arts Damage",
+        "talents": [
+            {
+                "Celestial Globe": "For every 20 seconds Astesia stays on the battlefield, ASPD +5, stacking up to 5 times"
+            }
+        ],
+        "skills": [
+            {
+                "Astral Protection": "Atk+20%, DEF+30%"
+            },
+            {
+                "Astral Sword": "Atk +30%, DEF +30%, Blocked enemies +1.0, attack all Blocked enemies"
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_274_astesi_1.png",
+        "internal_id": "char_274_astesi"
+    },
     "Blue Poison": {
         "rarity": 5,
         "class": "Sniper",
@@ -1269,6 +1364,29 @@
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_219_meteo_1.png",
         "internal_id": "char_219_meteo"
+    },
+    "Executor": {
+        "rarity": 5,
+        "class": "Sniper",
+        "tags": [
+            "AoE"
+        ],
+        "trait": "Attacks all enemies within range, and deals 150% damage to enemies in the row directly in front of this unit.",
+        "talents": [
+            {
+                "Final Modification": "Attacks ignore 160 DEF"
+            }
+        ],
+        "skills": [
+            {
+                "Muzzle\u2019s Elegy": "Atk +20%, attacks apply this unit\u2019s feature effect to all enemies within Range."
+            },
+            {
+                "Final Journey": "Normal attacks strike twice, and the attack interval  is significantly shortened"
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_279_excu_1.png",
+        "internal_id": "char_279_excu"
     },
     "Amiya": {
         "rarity": 5,
@@ -1402,7 +1520,7 @@
         "trait": "Can heal allies by using the skill",
         "talents": [
             {
-                "Healing Effect Up": "Nearl's healing effect increases by 10%",
+                "Healing Boost": "Nearl's healing effect increases by 10%",
                 "Pegasus's Halo": "Increases the healing effect received by all allies by 10% when deployed"
             }
         ],
@@ -1432,7 +1550,7 @@
         ],
         "skills": [
             {
-                "Execution Mode": "Atk +35% after Projekt Red is deployed; obtains 20% physical dodge"
+                "Execution Mode": "Atk +35% after Projekt Red is deployed; obtains 20% physical dodge and arts dodge"
             },
             {
                 "Wolfpack": "Immediately deals 140% of ATK physical damage to all nearby enemies after deployed and stuns the hit targets for 1.0 seconds"
@@ -1600,7 +1718,7 @@
                 "Weakening": "Enemies in range are affected by [Fragile], making them take 130% damage when their HP is under 40%."
             },
             {
-                "Double Tinkle": "Attacks 2 enemies simultaneously when attacking"
+                "The Bell Tolls Twice": "Attacks 2 enemies simultaneously"
             }
         ],
         "skills": [
@@ -1672,8 +1790,8 @@
         "trait": "Deals Damage to all targets within range\n50% chance to dodge Physical and Arts attacks and is less likely to be targeted by enemies",
         "talents": [
             {
-                "Hidden Killer - Medium": "Stays in Invisible state normally (cannot be selected as the ranged-attack target); Removes the Invisible state when attacking and the ATK of the current attack +25%. Turns into Invisible state again after stopping attacking for 6 seconds",
-                "Hidden Killer - Elite": "Stays in Invisible state normally (cannot be selected as the ranged-attack target); Removes the Invisible state when attacking and the ATK of the current attack +50%. Turns into Invisible state again after stopping attacking for 5 seconds"
+                "Hidden Killer - Medium": "Stays [Invisible] normally (cannot be targeted by ranged units); The first attack made from the Invisible state gains +25% ATK and removes Invisible. Regains Invisible state after not attacking for 6 seconds.",
+                "Hidden Killer - Elite": "Stays [Invisible] normally (cannot be targeted by ranged units); The first attack made from the Invisible state gains +50% ATK and removes Invisible. Regains Invisible state after not attacking for 6 seconds."
             }
         ],
         "skills": [
@@ -1705,7 +1823,7 @@
                 "Raging Iron Fist": "The next attack pushes enemies towards the attack direction significantly and their movement speed -15% for 3.0seconds "
             },
             {
-                "Destructive Fist": "Rushes forward immediately and targets the closest enemy in the frontal line; knocks back all nearby enemies significantly, dealing 160% of ATK physical damage and the targets' movement speed -15% for 3.0 seconds"
+                "Destructive Fist": "Rushes forward immediately and targets the closest enemy in the frontal line; knocks back all nearby enemies greatly, dealing 160% of ATK physical damage and the targets' movement speed -15% for 3.0 seconds"
             }
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_241_panda_1.png",
@@ -1861,6 +1979,37 @@
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_291_aglina_1.png",
         "internal_id": "char_291_aglina"
     },
+    "Magallan": {
+        "rarity": 6,
+        "class": "Supporter",
+        "tags": [
+            "Support",
+            "Slow",
+            "DPS"
+        ],
+        "trait": "Deals Arts Damage\nCan use Summons in battles",
+        "talents": [
+            {
+                "Support Drone - Soaring Dragon": "Can use up to 5 drones that do not block (max 3 deployed at once). Drones\u2019 effect changes based upon Skill."
+            },
+            {
+                "Optical Refraction Accessories": "Drones cannot be targeted by enemy attacks within 20 seconds of deployment."
+            }
+        ],
+        "skills": [
+            {
+                "High-Efficiency Freezing Module": "Passive: every 3.0 seconds, enemies in Range of this unit and drones will be stopped for 0.7 second(s). active: instead binds enemies for 1.6 seconds, and retreats all drones when this effect ends."
+            },
+            {
+                "Laser Mining Module": "Passive: drones may be deployed on melee tiles, dealing singletarget arts damage.  active: Magallan and her drones gain +60.0 aspd, and drones gain aoe attacks. retreats all drones after this effect ends."
+            },
+            {
+                "Armed Combat Module": "Passive: drones may be deployed on Ranged tiles, dealing aoe physical damage.  active: Magallan and her drones gain +60% ATK, and increases the aoe of drones\u2019 attacks. retreats all drones after this effect ends."
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_248_mgllan_1.png",
+        "internal_id": "char_248_mgllan"
+    },
     "Shining": {
         "rarity": 6,
         "class": "Medic",
@@ -1904,7 +2053,7 @@
                 "White Fiend's Protection": "RES of allies within range +15"
             },
             {
-                "Fleeting Phantom": "Can use Phantom. Phantom can not attack or block enemies, but it has 75 RES and 30% Physical Dodge and enemies are more likely to attack it. Phantom loses HP by 3% of Max HP per second"
+                "Fleeting Phantom": "Can summon a Phantom. Phantoms cannot attack or block enemies, but have 75 RES and 30% Physical Dodge and enemies are more likely to attack it. Phantoms loses 3% Max HP per second"
             }
         ],
         "skills": [
@@ -2022,7 +2171,7 @@
         "trait": "Normal attacks deal damage twice",
         "talents": [
             {
-                "Scolding": "Restores 1 Skill Point Once Attacking/Skill Point Once Attacked every 4 seconds when deployed"
+                "Scolding": "Every 4 seconds when deployed, restores 1 Skill Point to all deployed allies that have an ATK Recovery or DEF Recovery skill."
             },
             {
                 "Blade Art": "ATK +5%; DEF +5%; Physical Dodge +10%"
@@ -2041,6 +2190,36 @@
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_010_chen_1.png",
         "internal_id": "char_010_chen"
+    },
+    "Hellagur": {
+        "rarity": 6,
+        "class": "Guard",
+        "tags": [
+            "DPS",
+            "Survival"
+        ],
+        "trait": "Can't be healed by other units. Recovers {value} self HP every time he attacks an enemy",
+        "talents": [
+            {
+                "Waxing Moon": "Increases ASPD based on lost HP (Reaches max boosted ASPD +100 when below 30% HP)"
+            },
+            {
+                "Ingenious Strategist": "Regenerate 60 HP per second when this unit is not blocking an enemy."
+            }
+        ],
+        "skills": [
+            {
+                "Crescent Moon": "The ATK of next attack increases to 110%, attacking twice consecutively"
+            },
+            {
+                "Half Moon": "Atk +20%, changes attack to twice attack, obtaining 75% physical dodge"
+            },
+            {
+                "Full Moon": "Atk +40%, attack Range +1.0 tiles, can attack up to 3.0 targets simultaneously"
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/char_188_helage_1.png",
+        "internal_id": "char_188_helage"
     },
     "Medic Drone": {
         "rarity": 5,
@@ -2195,7 +2374,7 @@
         "talents": null,
         "skills": [
             {
-                "Road Blocking": "Deploy a roadBlock, changing enemies' route if the roadBlock is deployed on enemies, they will destroy it"
+                "Obstruct": "Deploy a roadBlock, changing enemies' route if the roadBlock is deployed on enemies, they will destroy it"
             }
         ],
         "image": "https://raw.githubusercontent.com/Aceship/AN-EN-Tags/master/img/characters/trap_001_crate_1.png",
@@ -2324,7 +2503,7 @@
         "trait": "Can launch Ranged Attacks that deal 80% of normal ATK",
         "talents": [
             {
-                "Targeting - Primary": "Has a 20% chance to increase the ATK of the current attack to 150% when attacking"
+                "Targeting - Primary": "When attacking, has a 20% chance to increase the current damage of that attack to 150%"
             }
         ],
         "skills": [
@@ -2344,7 +2523,7 @@
         "trait": "Blocks 1 enemy",
         "talents": [
             {
-                "Boxer's Concentration": "Increases the ATK of every attack by 5% when attacking the same target, stacking up to 5 times. The stacking effect will be lost when switching targets"
+                "Boxer's Concentration": "Each consecutive attack on the same target increases ATK by 5%, stacking up to 5 times. Stacks will be lost upon switching targets."
             }
         ],
         "skills": [
